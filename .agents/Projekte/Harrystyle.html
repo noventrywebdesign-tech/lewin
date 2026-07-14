@@ -737,7 +737,7 @@
        BOOKING CTA
     ════════════════════════════════ */
     .booking {
-      padding: 9rem 3.5rem;
+      padding: 9rem 3.5rem 4rem;
       border-top: 1px solid var(--border);
     }
 
@@ -832,12 +832,26 @@
 
     .booking-hours-time.closed { color: var(--muted-2); }
 
+    .booking-map-wrapper {
+      width: 100%;
+      padding: 6px;
+      background: #C9A96E;
+    }
+
+    .booking-map {
+      display: block;
+      width: 100%;
+      height: 200px;
+      border: 0;
+      filter: grayscale(20%) contrast(1.05);
+    }
+
     /* ════════════════════════════════
        FOOTER
     ════════════════════════════════ */
     .footer {
       border-top: 1px solid var(--border);
-      padding: 4rem 3.5rem 2.5rem;
+      padding: 2.5rem 3.5rem 2rem;
     }
 
     .footer-top {
@@ -1120,7 +1134,7 @@
       >
       <div class="about-photo-caption">
         <div class="about-photo-caption-label">Unser Salon</div>
-        <div class="about-photo-caption-value">Est. 2012 · Berlin Mitte</div>
+        <div class="about-photo-caption-value">Est. 2012 · Düsseldorf</div>
       </div>
     </div>
   </section>
@@ -1298,7 +1312,7 @@
       <div class="booking-info-cell">
         <div class="booking-info-label">Adresse</div>
         <div class="booking-info-value">
-          Friedrichstraße 42<br>10117 Berlin Mitte
+          Königsallee 14<br>40212 Düsseldorf
         </div>
       </div>
       <div class="booking-info-cell">
@@ -1328,6 +1342,16 @@
       </div>
     </div>
 
+    <div class="booking-map-wrapper">
+      <iframe
+        class="booking-map"
+        src="https://www.google.com/maps?q=Königsallee+14,+40212+Düsseldorf,+Deutschland&output=embed"
+        allowfullscreen=""
+        loading="lazy"
+        title="Harry Style – Königsallee 14, 40212 Düsseldorf">
+      </iframe>
+    </div>
+
   </section>
 
   <!-- ── FOOTER ────────────────────── -->
@@ -1335,7 +1359,7 @@
     <div class="footer-top">
       <div>
         <a href="#" class="footer-brand-name" aria-label="Harry Style – nach oben">Harry<span>Style</span></a>
-        <p class="footer-tagline">Moderner Friseursalon für alle Haartypen in Berlin Mitte. Dein Flow, dein Style.</p>
+        <p class="footer-tagline">Moderner Friseursalon für alle Haartypen in Düsseldorf. Dein Flow, dein Style.</p>
       </div>
       <nav aria-label="Footer-Navigation">
         <div class="footer-col-label">Salon</div>
@@ -1357,7 +1381,7 @@
       </div>
     </div>
     <div class="footer-bottom">
-      <div class="footer-copy">© 2025 Harry Style Friseursalon · Berlin Mitte</div>
+      <div class="footer-copy">© 2025 Harry Style Friseursalon · Düsseldorf</div>
       <div class="footer-copy">Alle Rechte vorbehalten</div>
     </div>
   </footer>
