@@ -1,0 +1,1279 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>M.A.R.S. Kfz-Service & Mietwerkstatt Menden | Ölservice, Reifen, TÜV, Aufbereitung</title>
+<meta name="description" content="M.A.R.S. Mietwerkstatt & Kfz-Service in Menden (Sauerland): Ölservice, Fahrzeugcheck, Reifenservice & Einlagerung, TÜV-Service, Autoaufbereitung und Hebebühnen-Vermietung. Ohne Termin – faire Preise. Balver Straße 34.">
+<meta name="theme-color" content="#09090a">
+<link rel="canonical" href="https://www.mars-kfz-menden.de/">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="de_DE">
+<meta property="og:title" content="M.A.R.S. Kfz-Service & Mietwerkstatt Menden">
+<meta property="og:description" content="Dein Auto. Unser Anspruch. Kfz-Service, Mietwerkstatt und professionelle Fahrzeugpflege in Menden – ohne Termin, zu fairen Preisen.">
+<meta property="og:url" content="https://www.mars-kfz-menden.de/">
+<meta property="og:image" content="https://www.mars-kfz-menden.de/assets/mars-kfz-menden/img/hero-poster.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preload" href="assets/mars-kfz-menden/fonts/archivo-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/mars-kfz-menden/img/hero-poster.jpg" as="image">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "AutoRepair",
+  "name": "M.A.R.S. Mietwerkstatt & Kfz-Service Temore",
+  "alternateName": "M.A.R.S. Kfz-Service Menden",
+  "url": "https://www.mars-kfz-menden.de/",
+  "image": "https://www.mars-kfz-menden.de/assets/mars-kfz-menden/img/hero-poster.jpg",
+  "telephone": "+4915146349229",
+  "email": "kfz.mars.menden@web.de",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Balver Straße 34",
+    "postalCode": "58706",
+    "addressLocality": "Menden (Sauerland)",
+    "addressRegion": "NRW",
+    "addressCountry": "DE"
+  },
+  "openingHoursSpecification": [
+    {"@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"], "opens": "09:00", "closes": "19:00"},
+    {"@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "08:00", "closes": "16:00"}
+  ],
+  "sameAs": [
+    "https://www.instagram.com/mars_mietwerkstatt_temore",
+    "https://www.tiktok.com/@mars.menden",
+    "https://www.facebook.com/share/1Xgmbq7ekh/"
+  ],
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Leistungen",
+    "itemListElement": [
+      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "KFZ-Service"}},
+      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Ölservice"}},
+      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Fahrzeugcheck"}},
+      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Kleine Inspektion"}},
+      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Reifenservice"}},
+      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Reifeneinlagerung"}},
+      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "TÜV-Service"}},
+      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Autoaufbereitung"}},
+      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Hebebühnen-Vermietung"}},
+      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Verkauf von Autozubehör und Ersatzteilen"}}
+    ]
+  }
+}
+</script>
+<style>
+@font-face{font-family:"Archivo";src:url("assets/mars-kfz-menden/fonts/archivo-latin.woff2") format("woff2");font-weight:100 900;font-stretch:62% 125%;font-style:normal;font-display:swap}
+@font-face{font-family:"JetBrains Mono";src:url("assets/mars-kfz-menden/fonts/jetbrainsmono-latin.woff2") format("woff2");font-weight:100 800;font-style:normal;font-display:swap}
+
+:root{
+  --bg:#09090a;--bg-2:#0f0f11;--panel:#151518;--panel-2:#1c1d21;
+  --line:rgba(255,255,255,.09);--line-2:rgba(255,255,255,.16);
+  --text:#f4f3f0;--muted:#a3a3a8;--dim:#75757b;
+  --accent:#ff4f1a;--accent-2:#ff7a45;--accent-ink:#130500;
+  --glass:rgba(22,22,26,.55);
+  --gut:clamp(18px,4.2vw,56px);
+  --radius:22px;--radius-sm:14px;
+  --ease:cubic-bezier(.22,1,.36,1);
+  --nav-h:74px;
+  --mono:"JetBrains Mono",ui-monospace,SFMono-Regular,Menlo,monospace;
+  --sans:"Archivo",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  color-scheme:dark;
+}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:calc(var(--nav-h) + 8px);-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--text);font-family:var(--sans);font-size:17px;line-height:1.6;font-stretch:100%;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;overflow-x:hidden}
+img,video{display:block;max-width:100%}
+a{color:inherit;text-decoration:none}
+button{font:inherit;color:inherit;background:none;border:0;cursor:pointer;padding:0}
+h1,h2,h3,h4,p{margin:0}
+ul,ol{margin:0;padding:0;list-style:none}
+:focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius:6px}
+::selection{background:var(--accent);color:#fff}
+h1,h2,h3{overflow-wrap:break-word;-webkit-hyphens:auto;hyphens:auto}
+.svc-wrap>*,.svc-head>*,.about-grid>*,.contact-grid>*,.why-grid>*,.miet-grid>*,.auf-cards>*,.facts>*,.steps>*,.foot-grid>*,.callband-in>*,.sec-head>*,.hero-in>*,.two>*{min-width:0}
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+.skip{position:fixed;left:12px;top:-60px;z-index:200;background:var(--accent);color:#fff;padding:10px 16px;border-radius:10px;font-weight:700;transition:top .2s}
+.skip:focus{top:12px}
+
+.wrap{width:min(1320px,100% - 2*var(--gut));margin-inline:auto}
+.label{font-family:var(--mono);font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);display:inline-flex;align-items:center;gap:10px}
+.label::before{content:"";width:8px;height:8px;border-radius:50%;background:var(--accent);box-shadow:0 0 0 4px rgba(255,79,26,.18)}
+.display{font-stretch:125%;font-weight:900;text-transform:uppercase;line-height:.9;letter-spacing:-.012em}
+.h2{font-stretch:122%;font-weight:880;text-transform:uppercase;line-height:.92;letter-spacing:-.01em;font-size:clamp(2.35rem,7vw,5.6rem);color:var(--text)}
+.h2 em,.accent{font-style:normal;color:var(--accent)}
+.dot{color:var(--accent)}
+.lead{font-size:clamp(1.05rem,1.4vw,1.2rem);color:var(--muted);max-width:56ch}
+.section{padding-block:clamp(88px,12vw,168px);position:relative}
+.sec-head{display:grid;gap:22px;margin-bottom:clamp(44px,6vw,80px)}
+@media (min-width:1024px){.sec-head.split{grid-template-columns:1.25fr 1fr;align-items:end;gap:60px}}
+
+/* Buttons */
+.btn{--h:56px;display:inline-flex;align-items:center;justify-content:center;gap:12px;height:var(--h);padding-inline:26px;border-radius:999px;font-weight:700;font-size:15.5px;letter-spacing:.01em;transition:transform .45s var(--ease),background .3s,color .3s,border-color .3s,box-shadow .45s var(--ease);position:relative;overflow:hidden;white-space:nowrap;isolation:isolate}
+.btn svg{width:19px;height:19px;flex:none;transition:transform .45s var(--ease)}
+.btn-primary{background:var(--accent);color:#fff;box-shadow:0 10px 34px -10px rgba(255,79,26,.65)}
+.btn-primary::after{content:"";position:absolute;inset:0;background:linear-gradient(110deg,transparent 30%,rgba(255,255,255,.35) 50%,transparent 70%);transform:translateX(-120%);transition:transform .9s var(--ease);z-index:-1}
+.btn-primary:hover{transform:translateY(-2px);box-shadow:0 18px 44px -12px rgba(255,79,26,.8)}
+.btn-primary:hover::after{transform:translateX(120%)}
+.btn-ghost{background:rgba(255,255,255,.06);border:1px solid var(--line-2);color:var(--text);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px)}
+.btn-ghost:hover{background:rgba(255,255,255,.12);border-color:rgba(255,255,255,.3);transform:translateY(-2px)}
+.btn-ghost:hover svg,.btn-primary:hover svg.arr{transform:translateX(4px)}
+.btn-dark{background:var(--bg);color:#fff}
+.btn-dark:hover{transform:translateY(-2px);background:#000}
+
+/* Progress */
+.progress{position:fixed;inset:0 0 auto 0;height:2px;z-index:120;background:linear-gradient(90deg,var(--accent),var(--accent-2));transform-origin:0 50%;transform:scaleX(0)}
+
+/* NAV */
+.nav{position:fixed;inset:0 0 auto 0;z-index:100;height:var(--nav-h);transition:background .4s,border-color .4s,backdrop-filter .4s;border-bottom:1px solid transparent}
+.nav.scrolled{background:rgba(9,9,10,.72);backdrop-filter:blur(18px) saturate(1.4);-webkit-backdrop-filter:blur(18px) saturate(1.4);border-color:var(--line)}
+.nav-in{height:100%;display:flex;align-items:center;justify-content:space-between;gap:20px}
+.brand{display:flex;align-items:center;gap:12px;flex:none}
+.brand-mark{width:38px;height:38px;border-radius:50%;background:radial-gradient(circle at 35% 30%,#ff8a5c,var(--accent) 45%,#9e2600 100%);position:relative;box-shadow:0 0 24px -4px rgba(255,79,26,.7);flex:none}
+.brand-mark::after{content:"";position:absolute;inset:-5px -9px;border:1.5px solid rgba(255,255,255,.55);border-radius:50%;transform:rotate(-22deg) scaleY(.38)}
+.brand-txt{display:flex;flex-direction:column;line-height:1}
+.brand-name{font-stretch:125%;font-weight:900;font-size:20px;letter-spacing:.04em}
+.brand-sub{font-family:var(--mono);font-size:9.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--muted);margin-top:5px}
+.nav-links{display:none}
+.nav-cta{display:none}
+.burger{width:46px;height:46px;border-radius:50%;border:1px solid var(--line-2);display:grid;place-items:center;background:rgba(255,255,255,.05);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px)}
+.burger span{display:block;width:18px;height:1.5px;background:#fff;position:relative;transition:transform .4s var(--ease),background .3s}
+.burger span::before,.burger span::after{content:"";position:absolute;left:0;width:18px;height:1.5px;background:#fff;transition:transform .4s var(--ease),top .4s var(--ease)}
+.burger span::before{top:-6px}.burger span::after{top:6px}
+.menu-open .burger span{background:transparent}
+.menu-open .burger span::before{top:0;transform:rotate(45deg)}
+.menu-open .burger span::after{top:0;transform:rotate(-45deg)}
+@media (min-width:1100px){
+  .nav-links{display:flex;gap:4px;padding:6px;border-radius:999px;background:rgba(255,255,255,.04);border:1px solid var(--line)}
+  .nav-links a{padding:9px 16px;border-radius:999px;font-size:14px;font-weight:600;color:#d6d6d8;transition:background .3s,color .3s}
+  .nav-links a:hover,.nav-links a.active{background:rgba(255,255,255,.09);color:#fff}
+  .nav-cta{display:inline-flex;--h:46px;padding-inline:20px;font-size:14.5px}
+  .burger{display:none}
+}
+
+/* Mobile menu */
+.mmenu{position:fixed;inset:0;z-index:90;background:rgba(9,9,10,.94);backdrop-filter:blur(22px);-webkit-backdrop-filter:blur(22px);display:flex;flex-direction:column;justify-content:space-between;padding:calc(var(--nav-h) + 28px) var(--gut) calc(28px + env(safe-area-inset-bottom));opacity:0;visibility:hidden;transition:opacity .45s var(--ease),visibility .45s}
+.menu-open .mmenu{opacity:1;visibility:visible}
+.mmenu nav a{display:flex;align-items:baseline;gap:16px;padding:12px 0;border-bottom:1px solid var(--line);font-stretch:120%;font-weight:850;font-size:clamp(1.7rem,8vw,2.6rem);text-transform:uppercase;line-height:1.05;transform:translateY(24px);opacity:0;transition:transform .6s var(--ease),opacity .6s var(--ease)}
+.mmenu nav a small{font-family:var(--mono);font-size:11px;color:var(--accent);font-weight:500;letter-spacing:.1em}
+.menu-open .mmenu nav a{transform:none;opacity:1}
+.menu-open .mmenu nav a:nth-child(2){transition-delay:.04s}.menu-open .mmenu nav a:nth-child(3){transition-delay:.08s}.menu-open .mmenu nav a:nth-child(4){transition-delay:.12s}.menu-open .mmenu nav a:nth-child(5){transition-delay:.16s}
+.mmenu-foot{display:grid;gap:10px}
+.mmenu-foot .btn{width:100%}
+
+/* HERO */
+.hero{position:relative;min-height:100vh;min-height:100svh;display:flex;align-items:flex-end;overflow:hidden;isolation:isolate;padding-top:var(--nav-h)}
+.hero-media{position:absolute;inset:0;z-index:-2;background:#000 url("assets/mars-kfz-menden/img/hero-poster.jpg") center/cover no-repeat}
+.hero-media video{width:100%;height:100%;object-fit:cover;opacity:0;transition:opacity 1.2s ease;transform:scale(1.06)}
+.hero-media video.ready{opacity:1}
+.hero::before{content:"";position:absolute;inset:0;z-index:-1;background:
+  linear-gradient(180deg,rgba(9,9,10,.7) 0%,rgba(9,9,10,.2) 30%,rgba(9,9,10,.35) 55%,rgba(9,9,10,.92) 88%,var(--bg) 100%),
+  linear-gradient(90deg,rgba(9,9,10,.82) 0%,rgba(9,9,10,.35) 55%,rgba(9,9,10,.1) 100%)}
+.hero::after{content:"";position:absolute;inset:0;z-index:-1;pointer-events:none;opacity:.08;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")}
+.hero-in{padding-bottom:clamp(28px,5vh,56px)}
+.hero .label{color:#d9d9dc;margin-bottom:clamp(18px,3vh,30px)}
+.hero h1{font-size:clamp(2.1rem,10.6vw,4.6rem);color:#fff;-webkit-hyphens:manual;hyphens:manual}
+.hero h1 .ln{display:block;overflow:hidden;padding-bottom:.04em}
+.hero h1 .ln>span{display:block;transform:translateY(105%);transition:transform 1.25s var(--ease)}
+.loaded .hero h1 .ln>span{transform:none}
+.loaded .hero h1 .ln:nth-child(2)>span{transition-delay:.12s}
+.hero-sub{margin-top:clamp(18px,3vh,28px);font-size:clamp(1.02rem,1.5vw,1.22rem);color:#d2d2d5;max-width:46ch}
+.hero-ctas{display:flex;flex-wrap:wrap;gap:12px;margin-top:clamp(24px,4vh,38px)}
+.fade-in{opacity:0;transform:translateY(18px);transition:opacity 1s var(--ease),transform 1s var(--ease)}
+.loaded .fade-in{opacity:1;transform:none}
+.loaded .fade-in.d1{transition-delay:.35s}.loaded .fade-in.d2{transition-delay:.5s}.loaded .fade-in.d3{transition-delay:.65s}.loaded .fade-in.d4{transition-delay:.8s}
+.hero-bar{margin-top:clamp(30px,6vh,64px);display:grid;gap:10px;border-top:1px solid var(--line-2);padding-top:18px}
+.hb-item{display:flex;align-items:center;gap:12px;font-size:14px;color:#cfcfd2}
+.hb-item svg{width:18px;height:18px;color:var(--accent);flex:none}
+.hb-item b{color:#fff;font-weight:700}
+.status{display:inline-flex;align-items:center;gap:8px;font-family:var(--mono);font-size:11.5px;letter-spacing:.08em;text-transform:uppercase;padding:6px 11px;border-radius:999px;background:rgba(255,255,255,.07);border:1px solid var(--line-2)}
+.status i{width:7px;height:7px;border-radius:50%;background:#9a9a9f}
+.status.open i{background:#3ddc84;box-shadow:0 0 0 0 rgba(61,220,132,.6);animation:pulse 2s infinite}
+@keyframes pulse{0%{box-shadow:0 0 0 0 rgba(61,220,132,.55)}70%{box-shadow:0 0 0 9px rgba(61,220,132,0)}100%{box-shadow:0 0 0 0 rgba(61,220,132,0)}}
+.scroll-hint{display:none}
+@media (min-width:768px){
+  .hero h1{font-size:clamp(4rem,9.2vw,6rem)}
+  .hero-bar{grid-template-columns:repeat(3,auto);justify-content:start;gap:34px}
+}
+@media (min-width:1100px){
+  .hero h1{font-size:clamp(5rem,7.6vw,8.4rem)}
+  .hero-in{display:grid;grid-template-columns:1fr auto;align-items:end;gap:40px}
+  .hero-bar{grid-column:1/-1}
+  .scroll-hint{display:flex;flex-direction:column;align-items:center;gap:12px;font-family:var(--mono);font-size:10.5px;letter-spacing:.22em;text-transform:uppercase;color:var(--muted);writing-mode:vertical-rl;padding-bottom:6px}
+  .scroll-hint::after{content:"";width:1px;height:64px;background:linear-gradient(var(--accent),transparent);animation:drip 2.2s var(--ease) infinite}
+  @keyframes drip{0%{transform:scaleY(0);transform-origin:top}50%{transform:scaleY(1);transform-origin:top}51%{transform-origin:bottom}100%{transform:scaleY(0);transform-origin:bottom}}
+}
+
+/* MARQUEE */
+.marquee{border-block:1px solid var(--line);background:var(--bg-2);overflow:hidden;padding-block:20px;position:relative}
+.marquee-track{display:flex;width:max-content;animation:marquee 46s linear infinite}
+.marquee-track ul{display:flex;align-items:center}
+.marquee-track li{display:flex;align-items:center;gap:30px;padding-right:30px;font-stretch:125%;font-weight:800;text-transform:uppercase;font-size:clamp(1.05rem,2vw,1.5rem);letter-spacing:.02em;white-space:nowrap;color:#e9e9eb}
+.marquee-track li:nth-child(even){color:transparent;-webkit-text-stroke:1px rgba(255,255,255,.45)}
+.marquee-track li::after{content:"";width:9px;height:9px;background:var(--accent);transform:rotate(45deg)}
+@keyframes marquee{to{transform:translateX(-50%)}}
+.marquee:hover .marquee-track{animation-play-state:paused}
+
+/* STATEMENT */
+.statement{padding-block:clamp(90px,13vw,180px)}
+.statement p.big{font-stretch:112%;font-weight:700;font-size:clamp(1.65rem,4.3vw,3.7rem);line-height:1.12;letter-spacing:-.012em;max-width:22ch;max-width:none}
+.statement .w{opacity:.16;transition:opacity .35s linear}
+.statement .w.on{opacity:1}
+.statement .w.hl.on{color:var(--accent)}
+.facts{margin-top:clamp(56px,8vw,100px);display:grid;gap:1px;background:var(--line);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden}
+.fact{background:var(--bg);padding:clamp(26px,3vw,40px);display:grid;gap:14px;align-content:start;transition:background .4s}
+.fact:hover{background:var(--panel)}
+.fact .k{font-stretch:125%;font-weight:900;text-transform:uppercase;font-size:clamp(1.8rem,3.4vw,2.8rem);line-height:.95}
+.fact .k em{font-style:normal;color:var(--accent)}
+.fact p{color:var(--muted);font-size:15.5px;max-width:34ch}
+.fact .label{font-size:11px}
+@media (min-width:860px){.facts{grid-template-columns:repeat(3,1fr)}}
+
+/* SERVICES */
+.svc-wrap{display:grid;gap:0}
+.svc{border-top:1px solid var(--line)}
+.svc:last-child{border-bottom:1px solid var(--line)}
+.svc-head{width:100%;display:grid;grid-template-columns:52px 1fr 40px;align-items:center;gap:8px;padding:22px 0;text-align:left;position:relative}
+.svc-no{font-family:var(--mono);font-size:13px;color:var(--dim);transition:color .3s}
+.svc-title{font-stretch:108%;font-weight:800;font-size:clamp(1.1rem,5vw,2.05rem);text-transform:uppercase;line-height:1.02;letter-spacing:-.005em;transition:color .35s,transform .5s var(--ease)}
+.svc-ico{width:40px;height:40px;border-radius:50%;border:1px solid var(--line-2);display:grid;place-items:center;transition:background .35s,border-color .35s,transform .5s var(--ease)}
+.svc-ico svg{width:16px;height:16px;transition:transform .5s var(--ease)}
+.svc-head::before{content:"";position:absolute;left:0;bottom:-1px;height:1px;width:100%;background:var(--accent);transform:scaleX(0);transform-origin:0 50%;transition:transform .7s var(--ease)}
+.svc.active .svc-no{color:var(--accent)}
+.svc.active .svc-ico{background:var(--accent);border-color:var(--accent)}
+.svc.active .svc-ico svg{transform:rotate(45deg)}
+.svc.active .svc-head::before{transform:scaleX(1)}
+.svc-body{display:grid;grid-template-rows:0fr;transition:grid-template-rows .6s var(--ease)}
+.svc.active .svc-body{grid-template-rows:1fr}
+.svc-body>div{overflow:hidden}
+.svc-inner{padding:0 0 26px;display:grid;gap:18px}
+.svc-media{border-radius:var(--radius-sm);overflow:hidden;aspect-ratio:16/10;background:var(--panel)}
+.svc-media img{width:100%;height:100%;object-fit:cover}
+.svc-inner p{color:var(--muted);max-width:60ch}
+.tags{display:flex;flex-wrap:wrap;gap:8px}
+.tags li{font-family:var(--mono);font-size:11px;letter-spacing:.06em;text-transform:uppercase;padding:7px 11px;border-radius:999px;border:1px solid var(--line-2);color:#d4d4d7}
+.svc-link{display:inline-flex;align-items:center;gap:8px;font-weight:700;color:var(--accent);font-size:15px}
+.svc-link svg{width:16px;height:16px;transition:transform .4s var(--ease)}
+.svc-link:hover svg{transform:translateX(4px)}
+.svc-stage{display:none}
+@media (min-width:1024px){
+  .svc-wrap{grid-template-columns:minmax(0,1fr) minmax(0,1.08fr);gap:clamp(40px,5vw,90px);align-items:start}
+  .svc-head{padding:19px 0;grid-template-columns:64px 1fr 40px}
+  .svc-head:hover .svc-title{transform:translateX(10px)}
+  .svc:not(.active) .svc-title{color:#8e8e93}
+  .svc:not(.active) .svc-head:hover .svc-title{color:#fff}
+  .svc-title{font-size:clamp(1.3rem,2.1vw,1.85rem);font-stretch:118%}
+  .svc-body{display:none}
+  .svc-stage{display:block;position:sticky;top:calc(var(--nav-h) + 28px);height:min(76vh,700px);border-radius:var(--radius);overflow:hidden;background:var(--panel);isolation:isolate;border:1px solid var(--line)}
+  .stage-img{position:absolute;inset:0;opacity:0;transform:scale(1.08);transition:opacity .8s var(--ease),transform 1.6s var(--ease)}
+  .stage-img.on{opacity:1;transform:scale(1)}
+  .stage-img img{width:100%;height:100%;object-fit:cover}
+  .svc-stage::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(9,9,10,0) 35%,rgba(9,9,10,.85) 100%);z-index:1;pointer-events:none}
+  .stage-card{position:absolute;left:18px;right:18px;bottom:18px;z-index:2;padding:26px 28px;border-radius:18px;background:rgba(14,14,17,.55);backdrop-filter:blur(20px) saturate(1.4);-webkit-backdrop-filter:blur(20px) saturate(1.4);border:1px solid rgba(255,255,255,.12);display:grid;gap:14px}
+  .stage-top{display:flex;justify-content:space-between;align-items:center;gap:20px}
+  .stage-no{font-family:var(--mono);font-size:12px;color:var(--accent);letter-spacing:.14em}
+  .stage-title{font-stretch:122%;font-weight:880;text-transform:uppercase;font-size:clamp(1.6rem,2.4vw,2.2rem);line-height:1}
+  .stage-card p{color:#d0d0d3;font-size:16px}
+  .stage-card .swap{transition:opacity .35s,transform .45s var(--ease)}
+  .stage-card.out .swap{opacity:0;transform:translateY(8px)}
+}
+
+/* CTA strip inside sections */
+.inline-cta{margin-top:clamp(40px,5vw,64px);display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:20px;padding:22px 24px;border-radius:var(--radius);background:linear-gradient(120deg,rgba(255,79,26,.12),rgba(255,255,255,.03));border:1px solid rgba(255,79,26,.28)}
+.inline-cta p{font-weight:600;font-size:1.05rem}
+.inline-cta p span{color:var(--muted);font-weight:400;display:block;font-size:15px}
+
+/* MIETWERKSTATT */
+.miet{padding-top:0;background:var(--bg)}
+.miet-hero{position:relative;min-height:min(92vh,900px);display:flex;align-items:flex-end;overflow:hidden;isolation:isolate}
+.miet-hero .bgimg{position:absolute;inset:-12% 0;z-index:-2}
+.miet-hero .bgimg img{width:100%;height:100%;object-fit:cover;object-position:50% 50%}
+.miet-hero::before{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(180deg,var(--bg) 0%,rgba(9,9,10,.35) 22%,rgba(9,9,10,.35) 50%,rgba(9,9,10,.94) 86%,var(--bg) 100%),linear-gradient(90deg,rgba(9,9,10,.85),rgba(9,9,10,.15) 70%)}
+.miet-hero-in{padding-block:clamp(120px,16vw,200px) clamp(40px,6vw,80px)}
+.miet-hero h2{font-size:clamp(2.7rem,11.5vw,8.6rem);color:#fff}
+.miet-hero .lead{color:#d6d6d9;margin-top:24px}
+.miet-hero .hero-ctas{margin-top:30px}
+.ticker{overflow:hidden;padding-block:clamp(18px,3vw,36px);border-bottom:1px solid var(--line)}
+.ticker-line{display:flex;gap:.4em;white-space:nowrap;font-stretch:125%;font-weight:900;text-transform:uppercase;font-size:clamp(3.4rem,13vw,12rem);line-height:.9;color:transparent;-webkit-text-stroke:1.2px rgba(255,255,255,.22);will-change:transform}
+.ticker-line span:nth-child(odd){-webkit-text-stroke:1.2px rgba(255,79,26,.75)}
+.miet-grid{display:grid;gap:14px;margin-top:clamp(60px,8vw,110px)}
+.mcard{position:relative;border-radius:var(--radius);background:var(--panel);border:1px solid var(--line);padding:clamp(24px,2.6vw,34px);display:flex;flex-direction:column;gap:14px;overflow:hidden;transition:transform .6s var(--ease),border-color .4s;isolation:isolate}
+.mcard:hover{transform:translateY(-4px);border-color:rgba(255,79,26,.4)}
+.mcard::before{content:"";position:absolute;inset:0;z-index:-1;background:radial-gradient(600px circle at var(--mx,50%) var(--my,0%),rgba(255,79,26,.14),transparent 40%);opacity:0;transition:opacity .4s}
+.mcard:hover::before{opacity:1}
+.mcard .ic{width:52px;height:52px;border-radius:14px;display:grid;place-items:center;background:rgba(255,79,26,.12);color:var(--accent);border:1px solid rgba(255,79,26,.25)}
+.mcard .ic svg{width:24px;height:24px}
+.mcard h3{font-stretch:118%;font-weight:850;text-transform:uppercase;font-size:clamp(1.25rem,1.9vw,1.6rem);line-height:1.05}
+.mcard p{color:var(--muted);font-size:15.5px}
+.mcard .num{position:absolute;top:22px;right:24px;font-family:var(--mono);font-size:12px;color:var(--dim)}
+.mcard.photo{padding:0;min-height:340px;justify-content:flex-end}
+.mcard.photo img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:-2;transition:transform 1.4s var(--ease)}
+.mcard.photo:hover img{transform:scale(1.05)}
+.mcard.photo::after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(180deg,rgba(9,9,10,0) 30%,rgba(9,9,10,.92))}
+.mcard.photo .txt{padding:clamp(24px,2.6vw,34px);display:grid;gap:12px}
+.mcard.photo p{color:#d3d3d6}
+@media (min-width:760px){.miet-grid{grid-template-columns:repeat(2,1fr)}}
+@media (min-width:1100px){
+  .miet-grid{grid-template-columns:repeat(12,1fr);grid-auto-rows:minmax(250px,auto)}
+  .miet-grid .mcard:nth-child(1){grid-column:span 5;grid-row:span 2}
+  .miet-grid .mcard:nth-child(2){grid-column:span 4}
+  .miet-grid .mcard:nth-child(3){grid-column:span 3}
+  .miet-grid .mcard:nth-child(4){grid-column:span 3}
+  .miet-grid .mcard:nth-child(5){grid-column:span 4}
+  .miet-grid .mcard:nth-child(6){grid-column:span 12;min-height:300px}
+}
+.steps{margin-top:clamp(60px,8vw,110px);display:grid;gap:16px;counter-reset:st}
+.step{position:relative;padding:30px 26px 28px;border-radius:var(--radius);border:1px solid var(--line);background:linear-gradient(180deg,rgba(255,255,255,.035),rgba(255,255,255,0))}
+.step .n{font-stretch:125%;font-weight:900;font-size:3.6rem;line-height:1;color:transparent;-webkit-text-stroke:1.2px var(--accent);display:block;margin-bottom:18px}
+.step h3{font-weight:800;font-stretch:112%;font-size:1.3rem;text-transform:uppercase;margin-bottom:8px}
+.step p{color:var(--muted);font-size:15.5px}
+@media (min-width:900px){.steps{grid-template-columns:repeat(3,1fr)}
+  .step:not(:last-child)::after{content:"";position:absolute;top:58px;right:-17px;width:18px;height:1px;background:var(--accent)}}
+
+/* AUFBEREITUNG */
+.auf{background:radial-gradient(1200px 600px at 80% 0%,rgba(255,79,26,.07),transparent 60%),var(--bg-2);border-block:1px solid var(--line)}
+.auf-stage{position:relative;border-radius:calc(var(--radius) + 6px);overflow:hidden;aspect-ratio:4/5;width:100%;background:#000 url("assets/mars-kfz-menden/img/detail-poster.jpg") center/cover;isolation:isolate;clip-path:inset(6% 6% 6% 6% round 28px);transition:clip-path 1.4s var(--ease)}
+.auf-stage.in{clip-path:inset(0 0 0 0 round 28px)}
+.auf-stage video{width:100%;height:100%;object-fit:cover}
+.auf-stage::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.05) 40%,rgba(0,0,0,.75));z-index:1}
+.auf-chip{position:absolute;z-index:2;left:clamp(16px,3vw,36px);bottom:clamp(16px,3vw,36px);right:clamp(16px,3vw,36px);display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:16px}
+.auf-chip .glass{padding:16px 20px;border-radius:16px;background:rgba(14,14,17,.5);backdrop-filter:blur(16px) saturate(1.3);-webkit-backdrop-filter:blur(16px) saturate(1.3);border:1px solid rgba(255,255,255,.14);max-width:440px}
+.auf-chip .glass b{display:block;font-stretch:118%;font-weight:850;text-transform:uppercase;font-size:1.05rem;margin-bottom:4px}
+.auf-chip .glass span{color:#d0d0d3;font-size:14.5px}
+@media (min-width:640px){.auf-stage{aspect-ratio:4/3}}
+@media (min-width:1000px){.auf-stage{aspect-ratio:16/8}}
+.auf-cards{margin-top:16px;display:grid;gap:14px}
+.acard{position:relative;border-radius:var(--radius);overflow:hidden;aspect-ratio:4/5;isolation:isolate;border:1px solid var(--line);background:var(--panel)}
+.acard img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:-2;transition:transform 1.4s var(--ease),filter .6s}
+.acard::after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(180deg,rgba(9,9,10,.0) 35%,rgba(9,9,10,.9) 100%)}
+.acard:hover img{transform:scale(1.06)}
+.acard .txt{position:absolute;inset:auto 0 0 0;padding:24px;display:grid;gap:8px}
+.acard .no{font-family:var(--mono);font-size:11.5px;letter-spacing:.14em;color:var(--accent)}
+.acard h3{font-stretch:120%;font-weight:880;text-transform:uppercase;font-size:1.45rem;line-height:1}
+.acard p{color:#cfcfd2;font-size:15px;max-height:0;opacity:0;overflow:hidden;transition:max-height .6s var(--ease),opacity .5s}
+.acard:hover p,.acard:focus-within p{max-height:140px;opacity:1}
+@media (hover:none){.acard p{max-height:none;opacity:1}}
+@media (min-width:640px){.auf-cards{grid-template-columns:repeat(2,1fr)}}
+@media (min-width:1100px){.auf-cards{grid-template-columns:repeat(4,1fr)}.acard{aspect-ratio:3/4.3}}
+.auf-note{margin-top:14px;display:grid;gap:14px}
+.auf-note>div{padding:24px 26px;border-radius:var(--radius);border:1px solid var(--line);background:rgba(255,255,255,.025);display:flex;gap:16px;align-items:flex-start}
+.auf-note svg{width:24px;height:24px;color:var(--accent);flex:none;margin-top:2px}
+.auf-note b{display:block;font-weight:750;margin-bottom:2px}
+.auf-note span{color:var(--muted);font-size:15.5px}
+@media (min-width:860px){.auf-note{grid-template-columns:1fr 1fr}}
+
+/* WARUM */
+.why{overflow:hidden;isolation:isolate}
+.why .bgimg{position:absolute;inset:-10% 0;z-index:-2}
+.why .bgimg img{width:100%;height:100%;object-fit:cover;object-position:50% 62%}
+.why::before{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(180deg,var(--bg) 0%,rgba(9,9,10,.78) 18%,rgba(9,9,10,.82) 80%,var(--bg) 100%)}
+.why-grid{display:grid;gap:14px}
+.wcard{padding:clamp(26px,2.8vw,36px);border-radius:var(--radius);background:var(--glass);backdrop-filter:blur(18px) saturate(1.3);-webkit-backdrop-filter:blur(18px) saturate(1.3);border:1px solid rgba(255,255,255,.1);display:grid;gap:14px;align-content:start;transition:transform .6s var(--ease),border-color .4s,background .4s}
+.wcard:hover{transform:translateY(-4px);border-color:rgba(255,79,26,.45);background:rgba(28,28,33,.62)}
+.wcard .top{display:flex;justify-content:space-between;align-items:center}
+.wcard .top svg{width:28px;height:28px;color:var(--accent)}
+.wcard .top span{font-family:var(--mono);font-size:12px;color:var(--dim)}
+.wcard h3{font-stretch:118%;font-weight:850;text-transform:uppercase;font-size:1.3rem;line-height:1.05}
+.wcard p{color:#bdbdc1;font-size:15.5px}
+@media (min-width:700px){.why-grid{grid-template-columns:repeat(2,1fr)}}
+@media (min-width:1100px){.why-grid{grid-template-columns:repeat(3,1fr)}}
+
+/* ABOUT */
+.about-grid{display:grid;gap:clamp(40px,6vw,90px);align-items:center}
+.about-img{position:relative;border-radius:var(--radius);overflow:hidden;aspect-ratio:4/5}
+.about-img img{width:100%;height:115%;object-fit:cover;object-position:50% 40%}
+.about-img .badge{position:absolute;left:18px;bottom:18px;right:18px;padding:16px 18px;border-radius:16px;background:rgba(14,14,17,.55);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);border:1px solid rgba(255,255,255,.14);display:flex;align-items:center;gap:14px;font-size:14.5px;color:#d6d6d9}
+.about-img .badge svg{width:22px;height:22px;color:var(--accent);flex:none}
+.about-img .badge b{color:#fff;display:block;font-size:15px}
+.about-copy{display:grid;gap:22px}
+.about-copy p{color:var(--muted)}
+.about-copy p strong{color:var(--text);font-weight:650}
+blockquote{margin:8px 0 0;padding:6px 0 6px 22px;border-left:2px solid var(--accent);font-stretch:108%;font-weight:650;font-size:clamp(1.25rem,2vw,1.6rem);line-height:1.3;color:#fff}
+.checks{display:grid;gap:10px}
+.checks li{display:flex;gap:12px;align-items:flex-start;color:#dedee0}
+.checks svg{width:20px;height:20px;color:var(--accent);flex:none;margin-top:3px}
+.socials{display:flex;gap:10px;flex-wrap:wrap}
+.socials a{width:46px;height:46px;border-radius:50%;display:grid;place-items:center;border:1px solid var(--line-2);transition:background .3s,border-color .3s,transform .4s var(--ease)}
+.socials a:hover{background:var(--accent);border-color:var(--accent);transform:translateY(-3px)}
+.socials svg{width:19px;height:19px}
+@media (min-width:960px){.about-grid{grid-template-columns:1fr 1.05fr}}
+
+/* CALL BAND */
+.callband{background:var(--accent);color:var(--accent-ink);overflow:hidden;position:relative;isolation:isolate}
+.callband::before{content:"";position:absolute;inset:0;z-index:-1;background:radial-gradient(800px 400px at 85% 120%,rgba(0,0,0,.25),transparent 60%),repeating-linear-gradient(-55deg,rgba(0,0,0,.05) 0 2px,transparent 2px 22px)}
+.callband-in{padding-block:clamp(70px,10vw,130px);display:grid;gap:34px}
+.callband h2{font-size:clamp(2.6rem,9vw,7.4rem);color:var(--accent-ink)}
+.callband p{font-size:1.15rem;max-width:44ch;color:#2a0d02;font-weight:500}
+.nums{display:grid;gap:12px}
+.num-link{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:20px 24px;border-radius:18px;background:rgba(19,5,0,.9);color:#fff;transition:transform .5s var(--ease),background .3s}
+.num-link:hover{transform:translateY(-3px);background:#000}
+.num-link small{display:block;font-family:var(--mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#b9b9bd}
+.num-link strong{font-stretch:118%;font-weight:850;font-size:clamp(1.35rem,3vw,2rem);letter-spacing:.01em}
+.num-link .go{width:50px;height:50px;border-radius:50%;background:var(--accent);display:grid;place-items:center;flex:none}
+.num-link .go svg{width:20px;height:20px;color:#fff}
+@media (min-width:1000px){.callband-in{grid-template-columns:1.2fr 1fr;align-items:end}}
+
+/* CONTACT */
+.contact-grid{display:grid;gap:16px}
+.cbox{border-radius:var(--radius);border:1px solid var(--line);background:var(--panel);padding:clamp(24px,3vw,40px)}
+.cinfo{display:grid;gap:0}
+.crow{display:flex;gap:16px;padding:18px 0;border-bottom:1px solid var(--line);align-items:flex-start}
+.crow:first-child{padding-top:0}
+.crow:last-child{border-bottom:0;padding-bottom:0}
+.crow .ic{width:44px;height:44px;border-radius:12px;display:grid;place-items:center;background:rgba(255,79,26,.1);color:var(--accent);flex:none}
+.crow .ic svg{width:20px;height:20px}
+.crow small{display:block;font-family:var(--mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--dim);margin-bottom:4px}
+.crow a,.crow address{font-style:normal;font-weight:650;font-size:1.06rem}
+.crow a:hover{color:var(--accent)}
+.crow .sub{display:block;color:var(--muted);font-size:14.5px;font-weight:400;margin-top:2px}
+.hours{width:100%;border-collapse:collapse;font-size:15.5px}
+.hours td{padding:3px 0}
+.hours td:last-child{text-align:right;font-weight:650;font-variant-numeric:tabular-nums}
+.hours tr.today td{color:var(--accent)}
+.form{display:grid;gap:14px}
+.form h3{font-stretch:118%;font-weight:850;text-transform:uppercase;font-size:1.5rem;line-height:1.05}
+.form .intro{color:var(--muted);font-size:15.5px;margin-top:-4px}
+.field{display:grid;gap:7px}
+.field label{font-size:13.5px;font-weight:600;color:#d4d4d7}
+.field input,.field select,.field textarea{width:100%;font:inherit;font-size:16px;color:var(--text);background:var(--bg-2);border:1px solid var(--line-2);border-radius:12px;padding:14px 16px;transition:border-color .3s,background .3s;-webkit-appearance:none;appearance:none}
+.field select{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' fill='none' stroke='%23a3a3a8' stroke-width='1.6'%3E%3Cpath d='M1 1.5l5 5 5-5'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 16px center;padding-right:42px}
+.field textarea{min-height:120px;resize:vertical}
+.field input:focus,.field select:focus,.field textarea:focus{outline:none;border-color:var(--accent);background:#121214}
+.two{display:grid;gap:14px}
+@media (min-width:600px){.two{grid-template-columns:1fr 1fr}}
+.consent{display:flex;gap:12px;align-items:flex-start;font-size:13.5px;color:var(--muted)}
+.consent input{width:20px;height:20px;accent-color:var(--accent);flex:none;margin-top:1px}
+.consent a{color:var(--text);text-decoration:underline;text-underline-offset:3px}
+.form .btn{width:100%}
+.form-ok{display:none;padding:14px 16px;border-radius:12px;background:rgba(61,220,132,.1);border:1px solid rgba(61,220,132,.35);color:#c9f5dc;font-size:14.5px}
+.form-ok.show{display:block}
+.mapbox{grid-column:1/-1;position:relative;border-radius:var(--radius);overflow:hidden;border:1px solid var(--line);min-height:380px;background:
+  radial-gradient(circle at 50% 50%,rgba(255,79,26,.18),transparent 30%),
+  linear-gradient(rgba(255,255,255,.04) 1px,transparent 1px) 0 0/44px 44px,
+  linear-gradient(90deg,rgba(255,255,255,.04) 1px,transparent 1px) 0 0/44px 44px,#0d0d0f}
+.mapbox iframe{position:absolute;inset:0;width:100%;height:100%;border:0;filter:grayscale(.3) contrast(1.05)}
+.map-ph{position:absolute;inset:0;display:grid;place-items:center;text-align:center;padding:24px}
+.map-ph .pin{width:64px;height:64px;border-radius:50%;background:var(--accent);display:grid;place-items:center;margin:0 auto 18px;box-shadow:0 0 0 12px rgba(255,79,26,.15),0 0 0 26px rgba(255,79,26,.07)}
+.map-ph .pin svg{width:28px;height:28px;color:#fff}
+.map-ph h3{font-stretch:118%;font-weight:850;text-transform:uppercase;font-size:1.4rem;margin-bottom:6px}
+.map-ph p{color:var(--muted);font-size:14px;max-width:46ch;margin:0 auto 18px}
+.map-ph .row{display:flex;gap:10px;justify-content:center;flex-wrap:wrap}
+@media (min-width:1000px){.contact-grid{grid-template-columns:1fr 1.15fr}}
+
+/* FOOTER */
+.foot{border-top:1px solid var(--line);padding-top:clamp(60px,8vw,100px);padding-bottom:calc(30px + env(safe-area-inset-bottom));overflow:hidden}
+.foot-grid{display:grid;gap:36px}
+.foot h4{font-family:var(--mono);font-size:11.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--dim);font-weight:500;margin-bottom:14px}
+.foot li{margin-bottom:8px}
+.foot a:hover{color:var(--accent)}
+.foot p,.foot li{color:#c9c9cc;font-size:15px}
+.foot-word{font-stretch:125%;font-weight:900;text-transform:uppercase;font-size:clamp(4.2rem,21vw,20rem);line-height:.8;letter-spacing:-.02em;color:transparent;-webkit-text-stroke:1px rgba(255,255,255,.14);margin-top:clamp(50px,7vw,90px);white-space:nowrap;user-select:none;text-align:center}
+.foot-word span{-webkit-text-stroke:1px rgba(255,79,26,.6)}
+.foot-bottom{display:flex;flex-wrap:wrap;gap:12px 24px;justify-content:space-between;padding-top:24px;border-top:1px solid var(--line);margin-top:24px;font-size:13.5px;color:var(--dim)}
+.foot-bottom nav{display:flex;gap:18px;flex-wrap:wrap}
+.foot-bottom a,.foot-bottom button{color:#bdbdc1;font-size:13.5px}
+.foot-bottom a:hover,.foot-bottom button:hover{color:var(--accent)}
+@media (min-width:800px){.foot-grid{grid-template-columns:1.4fr 1fr 1fr 1fr}}
+
+/* MOBILE CALL BAR */
+.callbar{position:fixed;left:10px;right:10px;bottom:calc(10px + env(safe-area-inset-bottom));z-index:80;display:grid;grid-template-columns:1.5fr 1fr 1fr;gap:6px;padding:6px;border-radius:20px;background:rgba(18,18,21,.78);backdrop-filter:blur(18px) saturate(1.4);-webkit-backdrop-filter:blur(18px) saturate(1.4);border:1px solid rgba(255,255,255,.12);box-shadow:0 20px 50px -10px rgba(0,0,0,.7);transform:translateY(140%);transition:transform .6s var(--ease)}
+.callbar.show{transform:none}
+.callbar a{display:flex;align-items:center;justify-content:center;gap:8px;height:52px;border-radius:15px;font-weight:700;font-size:14.5px;background:rgba(255,255,255,.07)}
+.callbar a.call{background:var(--accent);color:#fff}
+.callbar svg{width:19px;height:19px}
+@media (min-width:1100px){.callbar{display:none}}
+@media (max-width:1099px){.foot{padding-bottom:calc(100px + env(safe-area-inset-bottom))}}
+
+/* MODALS */
+dialog.legal{width:min(820px,100% - 24px);max-height:min(86vh,900px);padding:0;border:1px solid var(--line-2);border-radius:22px;background:var(--bg-2);color:var(--text);overflow:hidden}
+dialog.legal::backdrop{background:rgba(0,0,0,.7);backdrop-filter:blur(6px)}
+dialog.legal[open]{display:flex;flex-direction:column;animation:pop .45s var(--ease)}
+@keyframes pop{from{opacity:0;transform:translateY(16px) scale(.98)}}
+.legal-head{display:flex;justify-content:space-between;align-items:center;padding:20px 24px;border-bottom:1px solid var(--line)}
+.legal-head h2{font-stretch:120%;font-weight:880;text-transform:uppercase;font-size:1.4rem}
+.legal-close{width:42px;height:42px;border-radius:50%;border:1px solid var(--line-2);display:grid;place-items:center}
+.legal-close:hover{background:var(--accent);border-color:var(--accent)}
+.legal-close svg{width:18px;height:18px}
+.legal-body{padding:24px;overflow-y:auto;font-size:15.5px;color:#cfcfd2}
+.legal-body h3{font-size:1.05rem;font-weight:750;color:#fff;margin:22px 0 6px}
+.legal-body h3:first-child{margin-top:0}
+.legal-body p{margin-bottom:10px}
+.legal-body a{color:var(--accent);text-decoration:underline;text-underline-offset:3px}
+.note{padding:14px 16px;border-radius:12px;background:rgba(255,79,26,.1);border:1px solid rgba(255,79,26,.3);color:#ffd9cc;font-size:14.5px;margin-bottom:18px}
+
+/* Reveal */
+.js .rv{opacity:0;transform:translateY(34px);transition:opacity 1.1s var(--ease),transform 1.1s var(--ease);transition-delay:var(--d,0s)}
+.js .rv.in{opacity:1;transform:none}
+.js .rv-img{clip-path:inset(12% 8% 12% 8% round var(--radius));transition:clip-path 1.5s var(--ease)}
+.js .rv-img.in{clip-path:inset(0 0 0 0 round var(--radius))}
+
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}
+  .hero h1 .ln>span,.fade-in,.js .rv{transform:none!important;opacity:1!important}
+  .statement .w{opacity:1}
+}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Zum Inhalt springen</a>
+<div class="progress" aria-hidden="true"></div>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="i-phone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 5l7 7-7 7"/></symbol>
+    <symbol id="i-plus" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0z"/><circle cx="12" cy="10" r="3"/></symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></symbol>
+    <symbol id="i-wrench" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></symbol>
+    <symbol id="i-lift" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18M5 21V4M19 21V4M5 15h14"/><path d="M7.5 12.5l1.5-3h6l1.5 3"/><path d="M7 12.5h10V15H7z"/></symbol>
+    <symbol id="i-tools" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="7" width="19" height="13" rx="2"/><path d="M8 7V4.5h8V7M2.5 12.5h19M10 12.5v2h4v-2"/></symbol>
+    <symbol id="i-chat" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></symbol>
+    <symbol id="i-euro" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M18.5 7A7 7 0 1 0 18.5 17M4 10h10M4 14h9"/></symbol>
+    <symbol id="i-user" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="4"/><path d="M4 21a8 8 0 0 1 16 0"/></symbol>
+    <symbol id="i-gauge" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3.34 19a10 10 0 1 1 17.32 0"/><path d="m12 14 4-4"/><circle cx="12" cy="14" r="1.2"/></symbol>
+    <symbol id="i-spark" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="M12 3l1.9 5.6 5.6 1.9-5.6 1.9L12 18l-1.9-5.6-5.6-1.9 5.6-1.9z"/><path d="M19 15l.8 2.2L22 18l-2.2.8L19 21l-.8-2.2L16 18l2.2-.8z"/></symbol>
+    <symbol id="i-shield" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></symbol>
+    <symbol id="i-flex" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M17 1l4 4-4 4"/><path d="M3 11V9a4 4 0 0 1 4-4h14"/><path d="M7 23l-4-4 4-4"/><path d="M21 13v2a4 4 0 0 1-4 4H3"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></symbol>
+    <symbol id="i-wind" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9.6 4.6A2 2 0 1 1 11 8H2M12.6 19.4A2 2 0 1 0 14 16H2M17.5 8a2.5 2.5 0 1 1 2 4H2"/></symbol>
+    <symbol id="i-close" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M18 6 6 18M6 6l12 12"/></symbol>
+    <symbol id="i-insta" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2.5" y="2.5" width="19" height="19" rx="5.5"/><circle cx="12" cy="12" r="4.2"/><circle cx="17.6" cy="6.4" r="1" fill="currentColor" stroke="none"/></symbol>
+    <symbol id="i-fb" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></symbol>
+    <symbol id="i-tiktok" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="M15.5 2.5c.4 2.6 2 4.3 4.5 4.5v3.3c-1.6 0-3.1-.5-4.5-1.4v6.6a5.6 5.6 0 1 1-5.6-5.6c.3 0 .6 0 .9.1v3.4a2.3 2.3 0 1 0 1.5 2.1V2.5z"/></symbol>
+    <symbol id="i-wa" viewBox="0 0 24 24" fill="currentColor"><path d="M17.47 14.38c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.65.07-.3-.15-1.26-.46-2.4-1.48-.89-.79-1.49-1.77-1.66-2.07-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.03-.52-.07-.15-.67-1.61-.92-2.21-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.79.37-.27.3-1.04 1.02-1.04 2.48s1.07 2.88 1.21 3.07c.15.2 2.1 3.2 5.08 4.49.71.31 1.26.49 1.69.63.71.23 1.36.19 1.87.12.57-.09 1.76-.72 2.01-1.41.25-.7.25-1.29.17-1.41-.07-.13-.27-.2-.57-.35zM12.05 21.5h-.01a9.4 9.4 0 0 1-4.8-1.31l-.34-.2-3.57.94.95-3.48-.22-.36a9.4 9.4 0 0 1-1.44-5.01c0-5.2 4.23-9.43 9.44-9.43 2.52 0 4.89.98 6.67 2.77a9.37 9.37 0 0 1 2.76 6.67c0 5.2-4.23 9.43-9.43 9.43zm8.03-17.46A11.27 11.27 0 0 0 12.05.72C5.8.72.7 5.8.7 12.07c0 2 .52 3.95 1.52 5.67L.6 23.28l5.67-1.49a11.3 11.3 0 0 0 5.78 1.47c6.26 0 11.35-5.09 11.35-11.35 0-3.03-1.18-5.88-3.32-8.02z"/></symbol>
+  </defs>
+</svg>
+
+<header class="nav" id="nav">
+  <div class="wrap nav-in">
+    <a href="#top" class="brand" aria-label="M.A.R.S. Kfz-Service Menden – zum Seitenanfang">
+      <span class="brand-mark" aria-hidden="true"></span>
+      <span class="brand-txt"><span class="brand-name">M.A.R.S.</span><span class="brand-sub">Kfz-Service · Menden</span></span>
+    </a>
+    <nav class="nav-links" aria-label="Hauptnavigation">
+      <a href="#leistungen">Leistungen</a>
+      <a href="#mietwerkstatt">Mietwerkstatt</a>
+      <a href="#aufbereitung">Aufbereitung</a>
+      <a href="#ueber-uns">Über uns</a>
+      <a href="#kontakt">Kontakt</a>
+    </nav>
+    <a class="btn btn-primary nav-cta" href="tel:+4915146349229"><svg><use href="#i-phone"/></svg>0151 463 492 29</a>
+    <button class="burger" id="burger" aria-label="Menü öffnen" aria-expanded="false" aria-controls="mmenu"><span></span></button>
+  </div>
+</header>
+
+<div class="mmenu" id="mmenu" aria-hidden="true" inert>
+  <nav aria-label="Mobile Navigation">
+    <a href="#leistungen"><small>01</small>Leistungen</a>
+    <a href="#mietwerkstatt"><small>02</small>Mietwerkstatt</a>
+    <a href="#aufbereitung"><small>03</small>Aufbereitung</a>
+    <a href="#ueber-uns"><small>04</small>Über uns</a>
+    <a href="#kontakt"><small>05</small>Kontakt</a>
+  </nav>
+  <div class="mmenu-foot">
+    <a class="btn btn-primary" href="tel:+4915146349229"><svg><use href="#i-phone"/></svg>0151 463 492 29</a>
+    <a class="btn btn-ghost" href="tel:+4923733991101"><svg><use href="#i-phone"/></svg>02373 399 11 01</a>
+  </div>
+</div>
+
+<main id="main">
+<!-- HERO -->
+<section class="hero" id="top" aria-labelledby="hero-title">
+  <div class="hero-media" aria-hidden="true">
+    <video id="heroVideo" muted loop playsinline preload="none" poster="assets/mars-kfz-menden/img/hero-poster.jpg"
+      data-src-lg="assets/mars-kfz-menden/video/hero-720.mp4" data-src-sm="assets/mars-kfz-menden/video/hero-540.mp4"></video>
+  </div>
+  <div class="wrap hero-in">
+    <div>
+      <p class="label fade-in">Kfz-Service · Mietwerkstatt · Aufbereitung</p>
+      <h1 class="display" id="hero-title">
+        <span class="ln"><span>Dein Auto<span class="dot">.</span></span></span>
+        <span class="ln"><span>Unser Anspruch<span class="dot">.</span></span></span>
+      </h1>
+      <p class="hero-sub fade-in d1">KFZ-Service, Mietwerkstatt und professionelle Fahrzeugpflege in Menden. Persönlich, unkompliziert und zu fairen Preisen.</p>
+      <div class="hero-ctas fade-in d2">
+        <a class="btn btn-primary" href="tel:+4915146349229"><svg><use href="#i-phone"/></svg>Jetzt anrufen</a>
+        <a class="btn btn-ghost" href="#leistungen">Unsere Leistungen entdecken<svg><use href="#i-arrow"/></svg></a>
+      </div>
+    </div>
+    <div class="scroll-hint fade-in d4" aria-hidden="true">Scroll</div>
+    <div class="hero-bar fade-in d3">
+      <div class="hb-item"><span class="status" id="status"><i></i><span>Öffnungszeiten</span></span></div>
+      <div class="hb-item"><svg><use href="#i-clock"/></svg><span><b>Ohne Termin</b> – einfach vorbeikommen</span></div>
+      <div class="hb-item"><svg><use href="#i-pin"/></svg><span><b>Balver Straße 34</b>, 58706 Menden</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- MARQUEE -->
+<div class="marquee" aria-hidden="true">
+  <div class="marquee-track">
+    <ul><li>KFZ-Service</li><li>Ölservice</li><li>Fahrzeugcheck</li><li>Kleine Inspektion</li><li>Reifenservice</li><li>Reifeneinlagerung</li><li>TÜV-Service</li><li>Autoaufbereitung</li><li>Hebebühnen-Vermietung</li><li>Zubehör &amp; Teile</li></ul>
+    <ul><li>KFZ-Service</li><li>Ölservice</li><li>Fahrzeugcheck</li><li>Kleine Inspektion</li><li>Reifenservice</li><li>Reifeneinlagerung</li><li>TÜV-Service</li><li>Autoaufbereitung</li><li>Hebebühnen-Vermietung</li><li>Zubehör &amp; Teile</li></ul>
+  </div>
+</div>
+
+<!-- STATEMENT -->
+<section class="statement" aria-label="Unser Versprechen">
+  <div class="wrap">
+    <p class="label rv" style="margin-bottom:34px">Werkstatt mit Haltung</p>
+    <p class="big" id="statement" data-hl="clevere,Alternative,ehrliche,Arbeit.">Die clevere Alternative zu teuren Vertragswerkstätten: moderne Ausstattung, transparente Preise und ehrliche Arbeit – ganz gleich, ob du dein Auto machen lässt oder selbst Hand anlegst.</p>
+    <div class="facts">
+      <div class="fact rv"><span class="label">Flexibel</span><p class="k">Ohne<br><em>Termin.</em></p><p>Komm einfach vorbei oder ruf kurz an – wir kümmern uns schnell und unkompliziert um dein Anliegen.</p></div>
+      <div class="fact rv" style="--d:.1s"><span class="label">Erreichbar</span><p class="k">6 Tage<br><em>die Woche.</em></p><p>Montag bis Freitag von 9 bis 19 Uhr, samstags von 8 bis 16 Uhr für dich da.</p></div>
+      <div class="fact rv" style="--d:.2s"><span class="label">Zwei Wege</span><p class="k">Machen<br><em>lassen</em> oder selbst.</p><p>Service durch uns – oder Hebebühne und Werkzeug mieten und selbst schrauben.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- LEISTUNGEN -->
+<section class="section" id="leistungen" aria-labelledby="lst-title" style="padding-top:0">
+  <div class="wrap">
+    <div class="sec-head split">
+      <div>
+        <p class="label rv">(01) Leistungen</p>
+        <h2 class="h2 rv" id="lst-title" style="margin-top:22px">Alles für<br>dein Auto<em>.</em></h2>
+      </div>
+      <p class="lead rv">Von Ölwechsel bis Reifeneinlagerung, vom Fahrzeugcheck bis zum neuen Glanz: zehn Leistungen, eine Anlaufstelle – mit ehrlicher Beratung und fairen Preisen.</p>
+    </div>
+
+    <div class="svc-wrap">
+      <ol class="svc-list" id="svcList">
+        <li class="svc active" data-i="0">
+          <button class="svc-head" aria-expanded="true" aria-controls="svc-b0" id="svc-h0"><span class="svc-no">01</span><span class="svc-title">KFZ-Service</span><span class="svc-ico"><svg><use href="#i-plus"/></svg></span></button>
+          <div class="svc-body" id="svc-b0" role="region" aria-labelledby="svc-h0"><div><div class="svc-inner">
+            <div class="svc-media"><img src="assets/mars-kfz-menden/img/svc-kfz-720.jpg" data-lg="assets/mars-kfz-menden/img/svc-kfz-1400.jpg" alt="Mechaniker zieht mit einem Ringschlüssel eine Schraube am Motor fest" loading="lazy" decoding="async" width="720" height="540"></div>
+            <p>Wartung, Pflege und kleine Reparaturen rund um dein Fahrzeug – mit ehrlicher Beratung, ohne lange Wartezeiten und ohne unnötige Kosten.</p>
+            <ul class="tags"><li>Wartung</li><li>Kleine Reparaturen</li><li>Ehrliche Beratung</li></ul>
+          </div></div></div>
+        </li>
+        <li class="svc" data-i="1">
+          <button class="svc-head" aria-expanded="false" aria-controls="svc-b1" id="svc-h1"><span class="svc-no">02</span><span class="svc-title">Ölservice</span><span class="svc-ico"><svg><use href="#i-plus"/></svg></span></button>
+          <div class="svc-body" id="svc-b1" role="region" aria-labelledby="svc-h1"><div><div class="svc-inner">
+            <div class="svc-media"><img src="assets/mars-kfz-menden/img/svc-oel-720.jpg" data-lg="assets/mars-kfz-menden/img/svc-oel-1400.jpg" alt="Frisches Motoröl wird über einen roten Trichter in den Motor gefüllt" loading="lazy" decoding="async" width="720" height="480" style="object-position:50% 75%"></div>
+            <p>Ölwechsel mit passendem Motoröl und Filter. Dabei prüfen wir auch deine Bremsen auf Sicht – damit mögliche Probleme früh auffallen.</p>
+            <ul class="tags"><li>Ölwechsel</li><li>Ölfilter</li><li>Bremsen-Sichtprüfung</li></ul>
+          </div></div></div>
+        </li>
+        <li class="svc" data-i="2">
+          <button class="svc-head" aria-expanded="false" aria-controls="svc-b2" id="svc-h2"><span class="svc-no">03</span><span class="svc-title">Fahrzeugcheck</span><span class="svc-ico"><svg><use href="#i-plus"/></svg></span></button>
+          <div class="svc-body" id="svc-b2" role="region" aria-labelledby="svc-h2"><div><div class="svc-inner">
+            <div class="svc-media"><img src="assets/mars-kfz-menden/img/svc-check-720.jpg" data-lg="assets/mars-kfz-menden/img/svc-check-1400.jpg" alt="Hände prüfen Bauteile am Unterboden eines Fahrzeugs" loading="lazy" decoding="async" width="720" height="480"></div>
+            <p>Gründliche Sicht- und Funktionsprüfung deines Fahrzeugs. So erkennst du mögliche Mängel rechtzeitig – bevor sie zum Problem werden.</p>
+            <ul class="tags"><li>Sichtprüfung</li><li>Funktionsprüfung</li></ul>
+          </div></div></div>
+        </li>
+        <li class="svc" data-i="3">
+          <button class="svc-head" aria-expanded="false" aria-controls="svc-b3" id="svc-h3"><span class="svc-no">04</span><span class="svc-title">Kleine Inspektion</span><span class="svc-ico"><svg><use href="#i-plus"/></svg></span></button>
+          <div class="svc-body" id="svc-b3" role="region" aria-labelledby="svc-h3"><div><div class="svc-inner">
+            <div class="svc-media"><img src="assets/mars-kfz-menden/img/svc-inspektion-720.jpg" data-lg="assets/mars-kfz-menden/img/svc-inspektion-1400.jpg" alt="Mechaniker arbeitet konzentriert im geöffneten Motorraum" loading="lazy" decoding="async" width="720" height="1080" style="object-position:50% 35%"></div>
+            <p>Die Durchsicht für zwischendurch: Wir schauen uns dein Auto genau an und sagen dir ehrlich, was wirklich nötig ist – und was nicht.</p>
+            <ul class="tags"><li>Durchsicht</li><li>Ehrliche Einschätzung</li></ul>
+          </div></div></div>
+        </li>
+        <li class="svc" data-i="4">
+          <button class="svc-head" aria-expanded="false" aria-controls="svc-b4" id="svc-h4"><span class="svc-no">05</span><span class="svc-title">Reifenservice</span><span class="svc-ico"><svg><use href="#i-plus"/></svg></span></button>
+          <div class="svc-body" id="svc-b4" role="region" aria-labelledby="svc-h4"><div><div class="svc-inner">
+            <div class="svc-media"><img src="assets/mars-kfz-menden/img/svc-reifen-720.jpg" data-lg="assets/mars-kfz-menden/img/svc-reifen-1400.jpg" alt="Mechaniker mit Handschuhen montiert ein Rad am Fahrzeug" loading="lazy" decoding="async" width="720" height="480"></div>
+            <p>Montage, Auswuchten und Radwechsel – damit du sicher unterwegs bist. Neue Reifen bestellen wir dir gerne im Voraus, schnell und zuverlässig.</p>
+            <ul class="tags"><li>Montage</li><li>Auswuchten</li><li>Radwechsel</li><li>Reifenbestellung</li></ul>
+          </div></div></div>
+        </li>
+        <li class="svc" data-i="5">
+          <button class="svc-head" aria-expanded="false" aria-controls="svc-b5" id="svc-h5"><span class="svc-no">06</span><span class="svc-title">Reifeneinlagerung</span><span class="svc-ico"><svg><use href="#i-plus"/></svg></span></button>
+          <div class="svc-body" id="svc-b5" role="region" aria-labelledby="svc-h5"><div><div class="svc-inner">
+            <div class="svc-media"><img src="assets/mars-kfz-menden/img/svc-einlagerung-720.jpg" data-lg="assets/mars-kfz-menden/img/svc-einlagerung-1400.jpg" alt="Gestapelte Autoreifen mit sichtbarem Profil" loading="lazy" decoding="async" width="720" height="540"></div>
+            <p>Fachgerechte Einlagerung deiner Sommer- und Winterreifen. Vor jeder Saison prüfen wir auf Wunsch den Zustand und sagen dir rechtzeitig, ob ein Wechsel nötig ist.</p>
+            <ul class="tags"><li>Sommerreifen</li><li>Winterreifen</li><li>Zustandsprüfung</li></ul>
+          </div></div></div>
+        </li>
+        <li class="svc" data-i="6">
+          <button class="svc-head" aria-expanded="false" aria-controls="svc-b6" id="svc-h6"><span class="svc-no">07</span><span class="svc-title">TÜV-Service</span><span class="svc-ico"><svg><use href="#i-plus"/></svg></span></button>
+          <div class="svc-body" id="svc-b6" role="region" aria-labelledby="svc-h6"><div><div class="svc-inner">
+            <div class="svc-media"><img src="assets/mars-kfz-menden/img/svc-tuev-720.jpg" data-lg="assets/mars-kfz-menden/img/svc-tuev-1400.jpg" alt="Nahaufnahme von Bremsscheibe und Bremssattel an einem aufgebockten Fahrzeug" loading="lazy" decoding="async" width="720" height="481"></div>
+            <p>Wir bereiten dein Fahrzeug mit einem gründlichen Check auf die Hauptuntersuchung vor – und du kannst entspannt zur TÜV-Abnahme bei uns vor Ort.</p>
+            <ul class="tags"><li>HU-Vorbereitung</li><li>TÜV-Abnahme vor Ort</li></ul>
+          </div></div></div>
+        </li>
+        <li class="svc" data-i="7">
+          <button class="svc-head" aria-expanded="false" aria-controls="svc-b7" id="svc-h7"><span class="svc-no">08</span><span class="svc-title">Autoaufbereitung</span><span class="svc-ico"><svg><use href="#i-plus"/></svg></span></button>
+          <div class="svc-body" id="svc-b7" role="region" aria-labelledby="svc-h7"><div><div class="svc-inner">
+            <div class="svc-media"><img src="assets/mars-kfz-menden/img/svc-aufbereitung-720.jpg" data-lg="assets/mars-kfz-menden/img/svc-aufbereitung-1400.jpg" alt="Lackpolitur mit Poliermaschine auf einer Motorhaube" loading="lazy" decoding="async" width="720" height="314"></div>
+            <p>Komplettaufbereitung innen und außen – von Sitzwäsche und Armaturenpflege bis Handwäsche, Lackpolitur und Glanzversiegelung.</p>
+            <a class="svc-link" href="#aufbereitung">Mehr zur Aufbereitung<svg><use href="#i-arrow"/></svg></a>
+          </div></div></div>
+        </li>
+        <li class="svc" data-i="8">
+          <button class="svc-head" aria-expanded="false" aria-controls="svc-b8" id="svc-h8"><span class="svc-no">09</span><span class="svc-title">Hebebühnen-Vermietung</span><span class="svc-ico"><svg><use href="#i-plus"/></svg></span></button>
+          <div class="svc-body" id="svc-b8" role="region" aria-labelledby="svc-h8"><div><div class="svc-inner">
+            <div class="svc-media"><img src="assets/mars-kfz-menden/img/svc-hebebuehne-720.jpg" data-lg="assets/mars-kfz-menden/img/svc-hebebuehne-1400.jpg" alt="Fahrzeug auf einer angehobenen Hebebühne in einer Werkstatt" loading="lazy" decoding="async" width="720" height="972" style="object-position:50% 40%"></div>
+            <p>Hebebühne und Spezialwerkzeug mieten und selbst am eigenen Auto arbeiten – mit Anleitung und Unterstützung, wann immer du sie brauchst.</p>
+            <a class="svc-link" href="#mietwerkstatt">Zur Mietwerkstatt<svg><use href="#i-arrow"/></svg></a>
+          </div></div></div>
+        </li>
+        <li class="svc" data-i="9">
+          <button class="svc-head" aria-expanded="false" aria-controls="svc-b9" id="svc-h9"><span class="svc-no">10</span><span class="svc-title">Zubehör &amp; Ersatzteile</span><span class="svc-ico"><svg><use href="#i-plus"/></svg></span></button>
+          <div class="svc-body" id="svc-b9" role="region" aria-labelledby="svc-h9"><div><div class="svc-inner">
+            <div class="svc-media"><img src="assets/mars-kfz-menden/img/svc-teile-720.jpg" data-lg="assets/mars-kfz-menden/img/svc-teile-1400.jpg" alt="Nahaufnahme von Fahrwerks- und Motorbauteilen" loading="lazy" decoding="async" width="720" height="445"></div>
+            <p>Motoröl, Ölfilter, Reinigungsmittel wie Bremsreiniger und vieles mehr direkt zum Mitnehmen. Ein spezielles Teil nötig? Wir bestellen es schnell und zuverlässig für dich.</p>
+            <ul class="tags"><li>Zum Mitnehmen</li><li>Bestellservice</li><li>Persönliche Beratung</li></ul>
+          </div></div></div>
+        </li>
+      </ol>
+      <aside class="svc-stage" id="svcStage" aria-hidden="true">
+        <div class="stage-card" id="stageCard">
+          <div class="stage-top swap"><span class="stage-no" id="stageNo">01 / 10</span></div>
+          <h3 class="stage-title swap" id="stageTitle">KFZ-Service</h3>
+          <p class="swap" id="stageText"></p>
+          <ul class="tags swap" id="stageTags"></ul>
+        </div>
+      </aside>
+    </div>
+
+    <div class="inline-cta rv">
+      <p>Nicht sicher, was dein Auto braucht?<span>Ruf an oder komm ohne Termin vorbei – wir beraten dich persönlich.</span></p>
+      <a class="btn btn-primary" href="tel:+4915146349229"><svg><use href="#i-phone"/></svg>0151 463 492 29</a>
+    </div>
+  </div>
+</section>
+
+<!-- MIETWERKSTATT -->
+<section class="section miet" id="mietwerkstatt" aria-labelledby="miet-title">
+  <div class="miet-hero">
+    <div class="bgimg" data-speed="0.12"><img src="assets/mars-kfz-menden/img/miet-main-1400.jpg" srcset="assets/mars-kfz-menden/img/miet-main-720.jpg 720w, assets/mars-kfz-menden/img/miet-main-1400.jpg 1400w" sizes="100vw" alt="" loading="lazy" decoding="async"></div>
+    <div class="wrap miet-hero-in">
+      <p class="label rv">(02) Mietwerkstatt</p>
+      <h2 class="display rv" id="miet-title" style="margin-top:22px">Selbst<br>schrauben<span class="dot">.</span><br><span class="accent">Clever sparen.</span></h2>
+      <p class="lead rv">Hebebühne, Werkzeug und Ausstattung – unsere Mietwerkstatt gibt dir alles, was du brauchst, um selbst an deinem Auto zu arbeiten. Und wenn du nicht weiterkommst, helfen wir dir.</p>
+      <div class="hero-ctas rv">
+        <a class="btn btn-primary" href="tel:+4915146349229"><svg><use href="#i-phone"/></svg>Hebebühne anfragen</a>
+        <a class="btn btn-ghost" href="https://wa.me/4915146349229" target="_blank" rel="noopener"><svg><use href="#i-wa"/></svg>Per WhatsApp</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="ticker" aria-hidden="true"><div class="ticker-line" id="ticker"><span>Mietwerkstatt</span><span>Selbstschrauber</span><span>Mietwerkstatt</span><span>Selbstschrauber</span></div></div>
+
+  <div class="wrap">
+    <div class="miet-grid">
+      <article class="mcard photo rv">
+        <img src="assets/mars-kfz-menden/img/miet-lift-720.jpg" srcset="assets/mars-kfz-menden/img/miet-lift-720.jpg 720w, assets/mars-kfz-menden/img/miet-lift-1400.jpg 1400w" sizes="(min-width:1100px) 42vw, 100vw" alt="Dunkles Fahrzeug auf einer Hebebühne in einer Werkstatt" loading="lazy" decoding="async">
+        <div class="txt">
+          <span class="label">01 — Hebebühne mieten</span>
+          <h3>Dein Auto.<br>Auf Augenhöhe.</h3>
+          <p>Unterboden, Auspuff, Bremsen oder Räder: Auf der Hebebühne arbeitest du bequem und sicher – statt auf dem kalten Garagenboden.</p>
+        </div>
+      </article>
+      <article class="mcard rv" style="--d:.06s"><span class="num">02</span><span class="ic"><svg><use href="#i-wrench"/></svg></span><h3>Selbst am Auto schrauben</h3><p>Du willst selbst Hand anlegen? Bei uns hast du den Platz und die Umgebung dafür – flexibel und unkompliziert.</p></article>
+      <article class="mcard rv" style="--d:.12s"><span class="num">03</span><span class="ic"><svg><use href="#i-tools"/></svg></span><h3>Werkzeug nutzen</h3><p>Spezialwerkzeug und Werkstattausstattung stehen dir zur Verfügung.</p></article>
+      <article class="mcard rv" style="--d:.06s"><span class="num">04</span><span class="ic"><svg><use href="#i-chat"/></svg></span><h3>Hilfe &amp; Anleitung</h3><p>Nicht weiter? Wir stehen dir mit Anleitung und Unterstützung zur Seite.</p></article>
+      <article class="mcard rv" style="--d:.12s"><span class="num">05</span><span class="ic"><svg><use href="#i-euro"/></svg></span><h3>Kosten sparen</h3><p>Wer selbst schraubt, spart – ohne bei der Qualität zu sparen.</p></article>
+      <article class="mcard photo rv">
+        <img src="assets/mars-kfz-menden/img/miet-tools-720.jpg" srcset="assets/mars-kfz-menden/img/miet-tools-720.jpg 720w, assets/mars-kfz-menden/img/miet-tools-1400.jpg 1400w" sizes="100vw" alt="Geöffnete Werkzeugschublade mit Ring- und Maulschlüsseln" loading="lazy" decoding="async" style="object-position:50% 55%">
+        <div class="txt">
+          <span class="label">Teile direkt vor Ort</span>
+          <h3>Öl, Filter, Bremsreiniger? Haben wir da.</h3>
+          <p>Motoröl, Ölfilter und Reinigungsmittel bekommst du direkt bei uns – Spezialteile bestellen wir dir.</p>
+        </div>
+      </article>
+    </div>
+
+    <ol class="steps">
+      <li class="step rv"><span class="n">01</span><h3>Anrufen oder vorbeikommen</h3><p>Kein Termin nötig. Ruf kurz an, ob eine Hebebühne frei ist – oder komm einfach vorbei.</p></li>
+      <li class="step rv" style="--d:.1s"><span class="n">02</span><h3>Bühne &amp; Werkzeug nutzen</h3><p>Du bekommst deinen Platz, die Hebebühne und das passende Werkzeug für dein Vorhaben.</p></li>
+      <li class="step rv" style="--d:.2s"><span class="n">03</span><h3>Schrauben – mit Rückendeckung</h3><p>Du arbeitest selbst. Bei Fragen sind wir da und unterstützen dich mit Anleitung.</p></li>
+    </ol>
+  </div>
+</section>
+
+<!-- AUFBEREITUNG -->
+<section class="section auf" id="aufbereitung" aria-labelledby="auf-title">
+  <div class="wrap">
+    <div class="sec-head split">
+      <div>
+        <p class="label rv">(03) Autoaufbereitung</p>
+        <h2 class="h2 rv" id="auf-title" style="margin-top:22px">Neuer<br>Glanz<em>.</em></h2>
+      </div>
+      <p class="lead rv">Professionelle Komplettaufbereitung – innen und außen. Hochwertige Produkte, sichtbare Ergebnisse. Gönn deinem Auto den Auftritt, den es verdient.</p>
+    </div>
+
+    <div class="auf-stage" id="aufStage">
+      <video id="shineVideo" muted loop playsinline preload="none" aria-hidden="true"
+        data-src-lg="assets/mars-kfz-menden/video/detail-720.mp4" data-src-sm="assets/mars-kfz-menden/video/detail-540.mp4"></video>
+      <div class="auf-chip">
+        <div class="glass"><b>Komplettaufbereitung</b><span>Innenreinigung inklusive Sitzwäsche, Armaturenpflege und Geruchsneutralisierung. Außen per Handwäsche, Lackpolitur, Glanzversiegelung und Felgenreinigung.</span></div>
+        <a class="btn btn-primary" href="#kontakt">Aufbereitung anfragen<svg class="arr"><use href="#i-arrow"/></svg></a>
+      </div>
+    </div>
+
+    <div class="auf-cards">
+      <article class="acard rv" tabindex="0">
+        <img src="assets/mars-kfz-menden/img/auf-innen-720.jpg" srcset="assets/mars-kfz-menden/img/auf-innen-720.jpg 720w, assets/mars-kfz-menden/img/auf-innen-1400.jpg 1400w" sizes="(min-width:1100px) 25vw, (min-width:640px) 50vw, 100vw" alt="Armaturenbrett wird mit einem feinen Pinsel gereinigt" loading="lazy" decoding="async" style="object-position:60% 50%">
+        <div class="txt"><span class="no">01 — Innen</span><h3>Innenraum&shy;reinigung</h3><p>Gründliche Innenreinigung inklusive Sitzwäsche und Armaturenpflege – für ein Fahrgefühl wie am ersten Tag.</p></div>
+      </article>
+      <article class="acard rv" tabindex="0" style="--d:.08s">
+        <img src="assets/mars-kfz-menden/img/auf-politur-720.jpg" srcset="assets/mars-kfz-menden/img/auf-politur-720.jpg 720w, assets/mars-kfz-menden/img/auf-politur-1400.jpg 1400w" sizes="(min-width:1100px) 25vw, (min-width:640px) 50vw, 100vw" alt="Poliermaschine auf glänzend schwarzem Autolack" loading="lazy" decoding="async">
+        <div class="txt"><span class="no">02 — Lack</span><h3>Lackpolitur</h3><p>Politur und Glanzversiegelung bringen Tiefe und Brillanz zurück in deinen Lack.</p></div>
+      </article>
+      <article class="acard rv" tabindex="0" style="--d:.16s">
+        <img src="assets/mars-kfz-menden/img/auf-felgen-720.jpg" srcset="assets/mars-kfz-menden/img/auf-felgen-720.jpg 720w, assets/mars-kfz-menden/img/auf-felgen-1400.jpg 1400w" sizes="(min-width:1100px) 25vw, (min-width:640px) 50vw, 100vw" alt="Reifenflanke und Felge werden mit einer Bürste gereinigt" loading="lazy" decoding="async">
+        <div class="txt"><span class="no">03 — Räder</span><h3>Felgenpflege</h3><p>Gründliche Felgenreinigung – denn ein sauberes Auto beginnt bei den Rädern.</p></div>
+      </article>
+      <article class="acard rv" tabindex="0" style="--d:.24s">
+        <img src="assets/mars-kfz-menden/img/auf-waesche-720.jpg" srcset="assets/mars-kfz-menden/img/auf-waesche-720.jpg 720w, assets/mars-kfz-menden/img/auf-waesche-1400.jpg 1400w" sizes="(min-width:1100px) 25vw, (min-width:640px) 50vw, 100vw" alt="Handwäsche eines dunklen Fahrzeugs mit Schwamm und Schaum" loading="lazy" decoding="async">
+        <div class="txt"><span class="no">04 — Außen</span><h3>Handwäsche</h3><p>Schonende Handwäsche statt Waschstraße – die Basis für Politur und Versiegelung.</p></div>
+      </article>
+    </div>
+
+    <div class="auf-note">
+      <div class="rv"><svg><use href="#i-wind"/></svg><p><b>Geruchsneutralisierung mit Ozongerät</b><span>Unangenehme Gerüche im Innenraum? Unser Ozongerät sorgt für eine frische, angenehme Atmosphäre.</span></p></div>
+      <div class="rv" style="--d:.1s"><svg><use href="#i-spark"/></svg><p><b>Hochwertige Produkte. Sichtbare Ergebnisse.</b><span>Wir arbeiten mit Sorgfalt und hochwertigen Pflegeprodukten – für Glanz, den man sieht.</span></p></div>
+    </div>
+  </div>
+</section>
+
+<!-- WARUM -->
+<section class="section why" id="warum" aria-labelledby="why-title">
+  <div class="bgimg" data-speed="0.1" aria-hidden="true"><img src="assets/mars-kfz-menden/img/why-bg-720.jpg" srcset="assets/mars-kfz-menden/img/why-bg-720.jpg 720w, assets/mars-kfz-menden/img/why-bg-1400.jpg 1400w" sizes="100vw" alt="" loading="lazy" decoding="async"></div>
+  <div class="wrap">
+    <div class="sec-head split">
+      <div>
+        <p class="label rv">(04) Deine Vorteile</p>
+        <h2 class="h2 rv" id="why-title" style="margin-top:22px">Warum<br>M.A.R.S.<em>?</em></h2>
+      </div>
+      <p class="lead rv" style="color:#c7c7cb">Wir helfen dir zu sparen – ohne bei der Qualität zu sparen. Unser Ziel: Du fährst mit einem guten Gefühl vom Hof.</p>
+    </div>
+    <div class="why-grid">
+      <article class="wcard rv"><div class="top"><svg><use href="#i-euro"/></svg><span>01</span></div><h3>Faire &amp; transparente Preise</h3><p>Qualität muss nicht teuer sein. Bei uns weißt du, wofür du bezahlst – ohne unnötige Kosten.</p></article>
+      <article class="wcard rv" style="--d:.08s"><div class="top"><svg><use href="#i-user"/></svg><span>02</span></div><h3>Persönliche Beratung</h3><p>Ehrliche Einschätzung statt Verkaufsgespräch. Wir nehmen uns Zeit für dich und dein Auto.</p></article>
+      <article class="wcard rv" style="--d:.16s"><div class="top"><svg><use href="#i-gauge"/></svg><span>03</span></div><h3>Moderne Ausstattung</h3><p>Moderne, gut ausgestattete Werkstatt für Wartung, Pflege und Selbstschrauber.</p></article>
+      <article class="wcard rv"><div class="top"><svg><use href="#i-check"/></svg><span>04</span></div><h3>Unkomplizierter Service</h3><p>Ohne Termin, ohne lange Wartezeiten. Vorbeikommen, Anliegen schildern – wir kümmern uns.</p></article>
+      <article class="wcard rv" style="--d:.08s"><div class="top"><svg><use href="#i-flex"/></svg><span>05</span></div><h3>Flexible Möglichkeiten</h3><p>Machen lassen oder selbst machen – du entscheidest, wie viel du selbst übernimmst.</p></article>
+      <article class="wcard rv" style="--d:.16s"><div class="top"><svg><use href="#i-lift"/></svg><span>06</span></div><h3>Mietwerkstatt für Selbstschrauber</h3><p>Hebebühne und Werkzeug mieten, selbst schrauben – mit Unterstützung, wenn du sie brauchst.</p></article>
+    </div>
+  </div>
+</section>
+
+<!-- ÜBER UNS -->
+<section class="section" id="ueber-uns" aria-labelledby="about-title">
+  <div class="wrap about-grid">
+    <div class="about-img rv-img rv" data-speed-wrap>
+      <img src="assets/mars-kfz-menden/img/about-720.jpg" srcset="assets/mars-kfz-menden/img/about-720.jpg 720w, assets/mars-kfz-menden/img/about-1400.jpg 1400w" sizes="(min-width:960px) 45vw, 100vw" alt="Hände mit Schraubenschlüssel bei der Arbeit unter einem Fahrzeug" loading="lazy" decoding="async" data-inner-speed="0.08">
+      <div class="badge"><svg><use href="#i-pin"/></svg><span><b>Balver Straße 34</b>58706 Menden (Sauerland)</span></div>
+    </div>
+    <div class="about-copy">
+      <p class="label rv">(05) Über uns</p>
+      <h2 class="h2 rv" id="about-title" style="font-size:clamp(2rem,4.6vw,4.4rem);font-stretch:112%;hyphens:manual">Persönlich.<br>Ehrlich.<br><em>Menden.</em></h2>
+      <p class="rv">Bei <strong>M.A.R.S. Kfz-Service &amp; Mietwerkstatt</strong> bist du an der richtigen Adresse für Fahrzeugpflege, Wartung und kleine Reparaturen – zu fairen Preisen, ohne lange Wartezeiten und mit persönlicher Beratung.</p>
+      <p class="rv">Ob du nur einen Ölwechsel brauchst, die Reifen wechseln willst oder dein Fahrzeug wieder zum Glänzen bringen möchtest: Bei uns bekommst du genau das, was du brauchst. Und wenn du lieber selbst schraubst, stellen wir dir Hebebühne, Werkzeug und Unterstützung zur Seite.</p>
+      <blockquote class="rv">„Bei uns steht der Mensch im Mittelpunkt – nicht nur das Auto.“</blockquote>
+      <ul class="checks rv">
+        <li><svg><use href="#i-check"/></svg>Moderne Ausstattung für Wartung, Pflege &amp; Selbstschrauber</li>
+        <li><svg><use href="#i-check"/></svg>Persönlicher Service &amp; ehrliche Beratung</li>
+        <li><svg><use href="#i-check"/></svg>Flexible Vermietung von Werkzeug &amp; Hebebühne</li>
+      </ul>
+      <div class="socials rv" aria-label="Social Media">
+        <a href="https://www.instagram.com/mars_mietwerkstatt_temore" target="_blank" rel="noopener" aria-label="M.A.R.S. auf Instagram"><svg><use href="#i-insta"/></svg></a>
+        <a href="https://www.tiktok.com/@mars.menden" target="_blank" rel="noopener" aria-label="M.A.R.S. auf TikTok"><svg><use href="#i-tiktok"/></svg></a>
+        <a href="https://www.facebook.com/share/1Xgmbq7ekh/" target="_blank" rel="noopener" aria-label="M.A.R.S. auf Facebook"><svg><use href="#i-fb"/></svg></a>
+        <a href="https://wa.me/4915146349229" target="_blank" rel="noopener" aria-label="M.A.R.S. per WhatsApp kontaktieren"><svg><use href="#i-wa"/></svg></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CALL BAND -->
+<section class="callband" aria-labelledby="call-title">
+  <div class="wrap callband-in">
+    <div>
+      <h2 class="display rv" id="call-title">Ruf<br>einfach an.</h2>
+      <p class="rv" style="margin-top:22px">Fragen zu einer Leistung oder zur Mietwerkstatt? Wir beraten dich gerne persönlich – telefonisch oder direkt vor Ort.</p>
+    </div>
+    <div class="nums">
+      <a class="num-link rv" href="tel:+4915146349229"><span><small>Mobil</small><strong>0151 463 492 29</strong></span><span class="go"><svg><use href="#i-phone"/></svg></span></a>
+      <a class="num-link rv" style="--d:.08s" href="tel:+4923733991101"><span><small>Festnetz</small><strong>02373 399 11 01</strong></span><span class="go"><svg><use href="#i-phone"/></svg></span></a>
+      <a class="num-link rv" style="--d:.16s" href="https://wa.me/4915146349229" target="_blank" rel="noopener"><span><small>WhatsApp</small><strong>Nachricht schreiben</strong></span><span class="go"><svg><use href="#i-wa"/></svg></span></a>
+    </div>
+  </div>
+</section>
+
+<!-- KONTAKT -->
+<section class="section" id="kontakt" aria-labelledby="kontakt-title">
+  <div class="wrap">
+    <div class="sec-head split">
+      <div>
+        <p class="label rv">(06) Kontakt &amp; Anfahrt</p>
+        <h2 class="h2 rv" id="kontakt-title" style="margin-top:22px">Komm<br>vorbei<em>.</em></h2>
+      </div>
+      <p class="lead rv">Ohne Termin – einfach vorbeikommen. Oder schreib uns vorab, worum es geht. Wir melden uns schnellstmöglich.</p>
+    </div>
+
+    <div class="contact-grid">
+      <div class="cbox cinfo rv">
+        <div class="crow"><span class="ic"><svg><use href="#i-pin"/></svg></span><div><small>Adresse</small><address>Balver Straße 34<br>58706 Menden (Sauerland)</address><a class="sub" href="https://www.google.com/maps/dir/?api=1&amp;destination=Balver+Stra%C3%9Fe+34%2C+58706+Menden" target="_blank" rel="noopener" style="color:var(--accent);font-weight:600">Route planen →</a></div></div>
+        <div class="crow"><span class="ic"><svg><use href="#i-phone"/></svg></span><div><small>Telefon</small><a href="tel:+4915146349229">0151 463 492 29</a><span class="sub">Festnetz: <a href="tel:+4923733991101" style="font-weight:600;font-size:inherit">02373 399 11 01</a></span></div></div>
+        <div class="crow"><span class="ic"><svg><use href="#i-mail"/></svg></span><div><small>E-Mail</small><a href="mailto:kfz.mars.menden@web.de">kfz.mars.menden@web.de</a></div></div>
+        <div class="crow"><span class="ic"><svg><use href="#i-clock"/></svg></span><div style="flex:1"><small>Öffnungszeiten</small>
+          <table class="hours"><tbody>
+            <tr data-days="1,2,3,4,5"><td>Montag – Freitag</td><td>9:00 – 19:00</td></tr>
+            <tr data-days="6"><td>Samstag</td><td>8:00 – 16:00</td></tr>
+          </tbody></table>
+          <span class="sub" style="margin-top:6px">Besuch ohne Termin möglich.</span>
+        </div></div>
+      </div>
+
+      <form class="cbox form rv" id="form" novalidate style="--d:.08s">
+        <h3>Anfrage senden</h3>
+        <p class="intro">Kurz beschreiben, worum es geht – wir melden uns bei dir.</p>
+        <div class="two">
+          <div class="field"><label for="f-name">Name *</label><input id="f-name" name="name" type="text" autocomplete="name" required></div>
+          <div class="field"><label for="f-kontakt">Telefon oder E-Mail *</label><input id="f-kontakt" name="kontakt" type="text" autocomplete="tel" required></div>
+        </div>
+        <div class="field"><label for="f-anliegen">Anliegen</label>
+          <select id="f-anliegen" name="anliegen">
+            <option>Allgemeine Anfrage</option><option>KFZ-Service</option><option>Ölservice</option><option>Fahrzeugcheck</option><option>Kleine Inspektion</option><option>Reifenservice</option><option>Reifeneinlagerung</option><option>TÜV-Service</option><option>Autoaufbereitung</option><option>Hebebühnen-Vermietung / Mietwerkstatt</option><option>Zubehör &amp; Ersatzteile</option>
+          </select>
+        </div>
+        <div class="field"><label for="f-msg">Nachricht *</label><textarea id="f-msg" name="nachricht" required placeholder="z. B. Fahrzeug, Baujahr, gewünschte Leistung …"></textarea></div>
+        <label class="consent"><input type="checkbox" id="f-ok" required><span>Ich bin einverstanden, dass meine Angaben zur Bearbeitung meiner Anfrage verwendet werden. Mehr in der <a href="#datenschutz" data-modal="datenschutz">Datenschutzerklärung</a>. *</span></label>
+        <button class="btn btn-primary" type="submit">Anfrage per E-Mail senden<svg class="arr"><use href="#i-arrow"/></svg></button>
+        <p class="form-ok" id="formOk" role="status">Danke! Dein E-Mail-Programm öffnet sich mit der vorbereiteten Nachricht. Falls nicht, schreib uns direkt an kfz.mars.menden@web.de oder ruf an: 0151 463 492 29.</p>
+      </form>
+
+      <div class="mapbox rv" id="mapbox">
+        <div class="map-ph" id="mapPh">
+          <div>
+            <div class="pin"><svg><use href="#i-pin"/></svg></div>
+            <h3>Balver Straße 34, Menden</h3>
+            <p>Zum Schutz deiner Daten wird Google Maps erst nach deinem Klick geladen. Dabei werden Daten an Google übertragen.</p>
+            <div class="row">
+              <button class="btn btn-ghost" id="loadMap" type="button">Karte laden</button>
+              <a class="btn btn-primary" href="https://www.google.com/maps/dir/?api=1&amp;destination=Balver+Stra%C3%9Fe+34%2C+58706+Menden" target="_blank" rel="noopener">Route planen<svg class="arr"><use href="#i-arrow"/></svg></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <a href="#top" class="brand" aria-label="Zum Seitenanfang"><span class="brand-mark" aria-hidden="true"></span><span class="brand-txt"><span class="brand-name">M.A.R.S.</span><span class="brand-sub">Mietwerkstatt &amp; Kfz-Service</span></span></a>
+        <p style="margin-top:18px;max-width:34ch;color:var(--muted)">Kfz-Service, Mietwerkstatt und Fahrzeugpflege in Menden (Sauerland). Persönlich, unkompliziert und zu fairen Preisen.</p>
+      </div>
+      <div>
+        <h4>Leistungen</h4>
+        <ul>
+          <li><a href="#leistungen">KFZ-Service &amp; Ölservice</a></li>
+          <li><a href="#leistungen">Reifenservice &amp; Einlagerung</a></li>
+          <li><a href="#leistungen">TÜV-Service</a></li>
+          <li><a href="#aufbereitung">Autoaufbereitung</a></li>
+          <li><a href="#mietwerkstatt">Mietwerkstatt</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Kontakt</h4>
+        <ul>
+          <li>Balver Straße 34<br>58706 Menden</li>
+          <li><a href="tel:+4915146349229">0151 463 492 29</a></li>
+          <li><a href="tel:+4923733991101">02373 399 11 01</a></li>
+          <li><a href="mailto:kfz.mars.menden@web.de">kfz.mars.menden@web.de</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Öffnungszeiten</h4>
+        <ul>
+          <li>Mo – Fr: 9:00 – 19:00</li>
+          <li>Sa: 8:00 – 16:00</li>
+          <li style="color:var(--muted)">Ohne Termin</li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-word" aria-hidden="true">M.A.R<span>.</span>S<span>.</span></div>
+    <div class="foot-bottom">
+      <span>© <span id="year">2026</span> M.A.R.S. Mietwerkstatt &amp; Kfz-Service Temore · Bildmaterial: Symbolbilder (Unsplash, Pexels)</span>
+      <nav aria-label="Rechtliches"><a href="#impressum" data-modal="impressum">Impressum</a><a href="#datenschutz" data-modal="datenschutz">Datenschutz</a></nav>
+    </div>
+  </div>
+</footer>
+
+<nav class="callbar" id="callbar" aria-label="Schnellkontakt">
+  <a class="call" href="tel:+4915146349229"><svg><use href="#i-phone"/></svg>Anrufen</a>
+  <a href="https://wa.me/4915146349229" target="_blank" rel="noopener"><svg><use href="#i-wa"/></svg>WhatsApp</a>
+  <a href="https://www.google.com/maps/dir/?api=1&amp;destination=Balver+Stra%C3%9Fe+34%2C+58706+Menden" target="_blank" rel="noopener"><svg><use href="#i-pin"/></svg>Route</a>
+</nav>
+
+<!-- LEGAL -->
+<dialog class="legal" id="dlg-impressum" aria-labelledby="imp-title">
+  <div class="legal-head"><h2 id="imp-title">Impressum</h2><button class="legal-close" data-close aria-label="Schließen"><svg><use href="#i-close"/></svg></button></div>
+  <div class="legal-body">
+    <p class="note">Hinweis: Auf der bisherigen Website ist das Impressum leer. Die folgenden Angaben stammen aus den öffentlich verfügbaren Unternehmensdaten. Vor Veröffentlichung müssen Inhaber/in (vollständiger Name), Rechtsform und – falls vorhanden – USt-IdNr. ergänzt werden.</p>
+    <h3>Angaben gemäß § 5 DDG</h3>
+    <p>M.A.R.S. Mietwerkstatt &amp; Kfz-Service Temore<br>Balver Straße 34<br>58706 Menden (Sauerland)</p>
+    <h3>Kontakt</h3>
+    <p>Mobil: <a href="tel:+4915146349229">0151 46349229</a><br>Telefon: <a href="tel:+4923733991101">02373 3991101</a><br>E-Mail: <a href="mailto:kfz.mars.menden@web.de">kfz.mars.menden@web.de</a></p>
+    <h3>Verbraucherstreitbeilegung</h3>
+    <p>Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.</p>
+    <h3>Bildnachweis</h3>
+    <p>Die auf dieser Website verwendeten Fotos und Videos sind Symbolbilder von Unsplash (unsplash.com) und Pexels (pexels.com) und zeigen nicht die Räumlichkeiten oder Ausstattung von M.A.R.S.</p>
+  </div>
+</dialog>
+
+<dialog class="legal" id="dlg-datenschutz" aria-labelledby="ds-title">
+  <div class="legal-head"><h2 id="ds-title">Datenschutz</h2><button class="legal-close" data-close aria-label="Schließen"><svg><use href="#i-close"/></svg></button></div>
+  <div class="legal-body">
+    <h3>1. Verantwortlicher</h3>
+    <p>M.A.R.S. Mietwerkstatt &amp; Kfz-Service Temore, Balver Straße 34, 58706 Menden (Sauerland), Telefon 0151 46349229, E-Mail kfz.mars.menden@web.de.</p>
+    <h3>2. Allgemeines</h3>
+    <p>Wir verarbeiten personenbezogene Daten nur, soweit dies zur Bereitstellung dieser Website und unserer Leistungen erforderlich ist. Rechtsgrundlagen sind insbesondere Art. 6 Abs. 1 lit. a, b und f DSGVO.</p>
+    <h3>3. Hosting &amp; Server-Logfiles</h3>
+    <p>Beim Aufruf dieser Website werden durch den Hosting-Anbieter technisch notwendige Daten (z. B. IP-Adresse, Datum und Uhrzeit, aufgerufene Seite, Browsertyp) in Server-Logfiles verarbeitet, um die Website sicher und stabil bereitzustellen (Art. 6 Abs. 1 lit. f DSGVO).</p>
+    <h3>4. Lokale Einbindung von Schriften, Bildern und Videos</h3>
+    <p>Schriftarten, Bilder und Videos werden direkt von unserem Server geladen. Es findet dabei keine Verbindung zu Servern Dritter statt. Wir verwenden keine Cookies und keine Analyse- oder Tracking-Tools.</p>
+    <h3>5. Kontaktaufnahme</h3>
+    <p>Wenn du uns per Telefon, E-Mail oder über das Kontaktformular kontaktierst, verarbeiten wir deine Angaben ausschließlich zur Bearbeitung deiner Anfrage (Art. 6 Abs. 1 lit. b DSGVO). Das Kontaktformular übermittelt keine Daten an unseren Server, sondern öffnet dein E-Mail-Programm mit einer vorbereiteten Nachricht.</p>
+    <h3>6. WhatsApp</h3>
+    <p>Wenn du uns über den WhatsApp-Link kontaktierst, wirst du zum Dienst WhatsApp der WhatsApp Ireland Ltd. weitergeleitet. Dabei gelten deren Datenschutzbestimmungen. Die Nutzung ist freiwillig – alternativ erreichst du uns telefonisch oder per E-Mail.</p>
+    <h3>7. Google Maps</h3>
+    <p>Die Karte von Google Maps (Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Irland) wird erst nach deinem aktiven Klick auf „Karte laden“ eingebunden (Art. 6 Abs. 1 lit. a DSGVO). Erst dann werden Daten wie deine IP-Adresse an Google übertragen.</p>
+    <h3>8. Social-Media-Links</h3>
+    <p>Links zu Instagram, TikTok und Facebook sind einfache Verlinkungen. Daten werden erst übertragen, wenn du einen Link anklickst und die jeweilige Plattform besuchst.</p>
+    <h3>9. Deine Rechte</h3>
+    <p>Du hast das Recht auf Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung, Datenübertragbarkeit und Widerspruch sowie das Recht, eine erteilte Einwilligung jederzeit zu widerrufen. Zudem kannst du dich bei einer Datenschutz-Aufsichtsbehörde beschweren, z. B. bei der Landesbeauftragten für Datenschutz und Informationsfreiheit Nordrhein-Westfalen.</p>
+  </div>
+</dialog>
+
+<script>
+(function(){
+  "use strict";
+  var doc=document.documentElement;
+  doc.classList.add("js");
+  var reduce=matchMedia("(prefers-reduced-motion: reduce)").matches;
+  var fine=matchMedia("(pointer: fine)").matches;
+  var $=function(s,c){return (c||document).querySelector(s)};
+  var $$=function(s,c){return Array.prototype.slice.call((c||document).querySelectorAll(s))};
+
+  document.getElementById("year").textContent=new Date().getFullYear();
+  requestAnimationFrame(function(){requestAnimationFrame(function(){doc.classList.add("loaded")})});
+
+  /* Videos: choose rendition by viewport, skip on reduced motion / data saver */
+  var saveData=navigator.connection&&navigator.connection.saveData;
+  function loadVideo(v){
+    if(!v||v.dataset.loaded||reduce||saveData)return;
+    v.dataset.loaded="1";
+    v.src=innerWidth>=900?v.dataset.srcLg:v.dataset.srcSm;
+    v.addEventListener("playing",function(){v.classList.add("ready")},{once:true});
+    var p=v.play(); if(p&&p.catch)p.catch(function(){});
+  }
+  var hv=document.getElementById("heroVideo"); loadVideo(hv);
+  var sv=document.getElementById("shineVideo");
+  if("IntersectionObserver" in window){
+    new IntersectionObserver(function(es,o){es.forEach(function(e){if(e.isIntersecting){loadVideo(sv);o.disconnect()}})},{rootMargin:"300px"}).observe(sv);
+    /* pause hero video when off-screen */
+    new IntersectionObserver(function(es){es.forEach(function(e){if(!hv.dataset.loaded)return;e.isIntersecting?hv.play().catch(function(){}):hv.pause()})}).observe(hv);
+  }
+
+  /* Opening status (Europe/Berlin) */
+  (function(){
+    var el=document.getElementById("status"); if(!el)return;
+    var now;
+    try{now=new Date(new Date().toLocaleString("en-US",{timeZone:"Europe/Berlin"}))}catch(e){now=new Date()}
+    var d=now.getDay(),m=now.getHours()*60+now.getMinutes();
+    var hrs={1:[540,1140],2:[540,1140],3:[540,1140],4:[540,1140],5:[540,1140],6:[480,960]};
+    var open=hrs[d]&&m>=hrs[d][0]&&m<hrs[d][1];
+    var txt;
+    if(open){txt="Jetzt geöffnet · bis "+(hrs[d][1]/60)+":00"}
+    else{
+      var nd=d,first=true,label="";
+      for(var i=0;i<8;i++){
+        if(hrs[nd]&&(!first||m<hrs[nd][0])){break}
+        nd=(nd+1)%7;first=false;
+      }
+      var names=["So","Mo","Di","Mi","Do","Fr","Sa"];
+      label=(nd===d)?"heute":(nd===(d+1)%7?"morgen":names[nd]);
+      txt="Geschlossen · öffnet "+label+" "+(hrs[nd][0]/60)+":00";
+    }
+    el.classList.toggle("open",!!open);
+    el.querySelector("span").textContent=txt;
+    $$(".hours tr").forEach(function(tr){if(tr.dataset.days.split(",").indexOf(String(d))>-1)tr.classList.add("today")});
+  })();
+
+  /* Nav state, progress, callbar */
+  var nav=document.getElementById("nav"),prog=$(".progress"),callbar=document.getElementById("callbar");
+  var ticker=document.getElementById("ticker");
+  var par=$$("[data-speed]");
+  var ticking=false;
+  function onScroll(){
+    var y=scrollY,h=doc.scrollHeight-innerHeight;
+    nav.classList.toggle("scrolled",y>40);
+    prog.style.transform="scaleX("+(h>0?y/h:0)+")";
+    callbar.classList.toggle("show",y>innerHeight*.6);
+    if(!reduce){
+      par.forEach(function(el){
+        var r=el.parentElement.getBoundingClientRect();
+        if(r.bottom<0||r.top>innerHeight)return;
+        var c=(r.top+r.height/2-innerHeight/2);
+        el.style.transform="translate3d(0,"+(c*-parseFloat(el.dataset.speed))+"px,0)";
+      });
+      if(ticker){
+        var tr=ticker.getBoundingClientRect();
+        if(tr.bottom>0&&tr.top<innerHeight){ticker.style.transform="translate3d("+((tr.top-innerHeight)*0.45)+"px,0,0)"}
+      }
+    }
+    statementProgress();
+    ticking=false;
+  }
+  addEventListener("scroll",function(){if(!ticking){ticking=true;requestAnimationFrame(onScroll)}},{passive:true});
+  addEventListener("resize",function(){requestAnimationFrame(onScroll)});
+
+  /* Statement word highlight */
+  var st=document.getElementById("statement"),words=[];
+  if(st){
+    var hl=(st.dataset.hl||"").split(",");
+    st.innerHTML=st.textContent.trim().split(/\s+/).map(function(w){
+      return '<span class="w'+(hl.indexOf(w)>-1?" hl":"")+'">'+w+'</span>';
+    }).join(" ");
+    words=$$(".w",st);
+    if(reduce)words.forEach(function(w){w.classList.add("on")});
+  }
+  function statementProgress(){
+    if(!words.length||reduce)return;
+    var r=st.getBoundingClientRect();
+    var p=(innerHeight*0.85-r.top)/(r.height+innerHeight*0.35);
+    p=Math.max(0,Math.min(1,p));
+    var n=Math.round(p*words.length);
+    words.forEach(function(w,i){w.classList.toggle("on",i<n)});
+  }
+  onScroll();
+
+  /* Mobile menu */
+  var burger=document.getElementById("burger"),mm=document.getElementById("mmenu");
+  function setMenu(open){
+    doc.classList.toggle("menu-open",open);
+    burger.setAttribute("aria-expanded",open);
+    burger.setAttribute("aria-label",open?"Menü schließen":"Menü öffnen");
+    mm.setAttribute("aria-hidden",!open);
+    if(open){mm.removeAttribute("inert")}else{mm.setAttribute("inert","")}
+    document.body.style.overflow=open?"hidden":"";
+  }
+  burger.addEventListener("click",function(){setMenu(!doc.classList.contains("menu-open"))});
+  $$("a",mm).forEach(function(a){a.addEventListener("click",function(){setMenu(false)})});
+  addEventListener("keydown",function(e){if(e.key==="Escape"&&doc.classList.contains("menu-open"))setMenu(false)});
+  addEventListener("resize",function(){if(innerWidth>=1100&&doc.classList.contains("menu-open"))setMenu(false)});
+
+  /* Active nav link */
+  var links=$$(".nav-links a");
+  if("IntersectionObserver" in window){
+    var io=new IntersectionObserver(function(es){es.forEach(function(e){
+      if(e.isIntersecting){links.forEach(function(a){a.classList.toggle("active",a.getAttribute("href")==="#"+e.target.id)})}
+    })},{rootMargin:"-45% 0px -50% 0px"});
+    ["leistungen","mietwerkstatt","aufbereitung","warum","ueber-uns","kontakt"].forEach(function(id){var s=document.getElementById(id);if(s)io.observe(s)});
+  }
+
+  /* Reveal */
+  var rvs=$$(".rv,.auf-stage");
+  if("IntersectionObserver" in window&&!reduce){
+    var rio=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add("in");rio.unobserve(e.target)}})},{rootMargin:"0px 0px -8% 0px",threshold:.08});
+    rvs.forEach(function(el){rio.observe(el)});
+  }else{rvs.forEach(function(el){el.classList.add("in")})}
+
+  /* Services explorer */
+  var svcs=$$(".svc"),stage=document.getElementById("svcStage"),card=document.getElementById("stageCard");
+  var desk=matchMedia("(min-width:1024px)");
+  var layers=[];
+  svcs.forEach(function(s,i){
+    var img=$(".svc-media img",s);
+    var d=document.createElement("div");d.className="stage-img"+(i===0?" on":"");
+    var im=document.createElement("img");im.alt="";im.decoding="async";
+    im.style.objectPosition=img.style.objectPosition||"";
+    if(i===0){im.src=img.dataset.lg}else{im.dataset.src=img.dataset.lg}
+    d.appendChild(im);stage.insertBefore(d,card);layers.push(d);
+  });
+  var cur=-1,swapT;
+  function fillCard(i){
+    var s=svcs[i];
+    document.getElementById("stageNo").textContent=String(i+1).padStart(2,"0")+" / "+svcs.length;
+    document.getElementById("stageTitle").textContent=$(".svc-title",s).textContent;
+    document.getElementById("stageText").textContent=$(".svc-inner p",s).textContent;
+    var tg=$(".tags",s),lk=$(".svc-link",s),ul=document.getElementById("stageTags");
+    ul.innerHTML="";
+    if(tg){ul.innerHTML=tg.innerHTML}
+    else if(lk){var li=document.createElement("li");li.style.borderColor="var(--accent)";li.style.color="#fff";li.textContent=lk.textContent;ul.appendChild(li)}
+  }
+  function activate(i,fromClick){
+    if(desk.matches){
+      if(i===cur)return;
+      svcs.forEach(function(s,k){s.classList.toggle("active",k===i);$(".svc-head",s).setAttribute("aria-expanded",k===i)});
+      layers.forEach(function(l,k){
+        if(k===i){var im=$("img",l);if(im.dataset.src){im.src=im.dataset.src;im.removeAttribute("data-src")}}
+        l.classList.toggle("on",k===i);
+      });
+      card.classList.add("out");clearTimeout(swapT);
+      swapT=setTimeout(function(){fillCard(i);card.classList.remove("out")},cur<0?0:220);
+      cur=i;
+    }else if(fromClick){
+      var s=svcs[i],open=!s.classList.contains("active");
+      svcs.forEach(function(x){x.classList.remove("active");$(".svc-head",x).setAttribute("aria-expanded","false")});
+      if(open){s.classList.add("active");$(".svc-head",s).setAttribute("aria-expanded","true");
+        setTimeout(function(){var r=s.getBoundingClientRect();if(r.top<70||r.top>innerHeight*.6){scrollTo({top:scrollY+r.top-90,behavior:reduce?"auto":"smooth"})}},380)}
+      cur=open?i:-1;
+    }
+  }
+  svcs.forEach(function(s,i){
+    var h=$(".svc-head",s);
+    h.addEventListener("click",function(){activate(i,true)});
+    h.addEventListener("mouseenter",function(){if(desk.matches)activate(i)});
+    h.addEventListener("focus",function(){if(desk.matches)activate(i)});
+  });
+  fillCard(0);cur=0;
+  desk.addEventListener&&desk.addEventListener("change",function(){cur=-1;activate(0,true);if(desk.matches)activate(0)});
+  /* preload remaining stage images when section approaches */
+  if("IntersectionObserver" in window){
+    new IntersectionObserver(function(es,o){es.forEach(function(e){if(e.isIntersecting&&desk.matches){layers.forEach(function(l){var im=$("img",l);if(im.dataset.src){im.src=im.dataset.src;im.removeAttribute("data-src")}});o.disconnect()}})},{rootMargin:"400px"}).observe(stage);
+  }
+
+  /* Card spotlight */
+  if(fine&&!reduce){
+    $$(".mcard").forEach(function(c){c.addEventListener("pointermove",function(e){var r=c.getBoundingClientRect();c.style.setProperty("--mx",(e.clientX-r.left)+"px");c.style.setProperty("--my",(e.clientY-r.top)+"px")})});
+  }
+
+  /* Map two-click */
+  document.getElementById("loadMap").addEventListener("click",function(){
+    var f=document.createElement("iframe");
+    f.src="https://www.google.com/maps?q=Balver+Stra%C3%9Fe+34,+58706+Menden&z=16&output=embed";
+    f.title="Google Maps: M.A.R.S. Kfz-Service, Balver Straße 34, Menden";f.loading="lazy";f.referrerPolicy="no-referrer-when-downgrade";f.allowFullscreen=true;
+    var box=document.getElementById("mapbox");box.innerHTML="";box.appendChild(f);
+  });
+
+  /* Contact form -> mailto */
+  var form=document.getElementById("form");
+  form.addEventListener("submit",function(e){
+    e.preventDefault();
+    var ok=true;
+    ["f-name","f-kontakt","f-msg"].forEach(function(id){var el=document.getElementById(id);var bad=!el.value.trim();el.style.borderColor=bad?"var(--accent)":"";if(bad)ok=false});
+    var c=document.getElementById("f-ok");c.parentElement.style.color=c.checked?"":"var(--accent-2)";if(!c.checked)ok=false;
+    if(!ok){var first=form.querySelector("[style*='accent']");if(first&&first.focus)first.focus();return}
+    var n=form.name.value.trim(),k=form.kontakt.value.trim(),a=form.anliegen.value,m=form.nachricht.value.trim();
+    var body="Name: "+n+"\nKontakt: "+k+"\nAnliegen: "+a+"\n\n"+m;
+    location.href="mailto:kfz.mars.menden@web.de?subject="+encodeURIComponent("Anfrage über die Website: "+a)+"&body="+encodeURIComponent(body);
+    document.getElementById("formOk").classList.add("show");
+  });
+
+  /* Legal dialogs */
+  function openDlg(id){var d=document.getElementById("dlg-"+id);if(!d)return;if(d.showModal){d.showModal()}else{d.setAttribute("open","")}}
+  $$("[data-modal]").forEach(function(a){a.addEventListener("click",function(e){e.preventDefault();openDlg(a.dataset.modal)})});
+  $$("dialog.legal").forEach(function(d){
+    d.addEventListener("click",function(e){if(e.target===d)d.close()});
+    $$("[data-close]",d).forEach(function(b){b.addEventListener("click",function(){d.close()})});
+  });
+  if(location.hash==="#impressum"||location.hash==="#datenschutz")openDlg(location.hash.slice(1));
+})();
+</script>
+</body>
+</html>
